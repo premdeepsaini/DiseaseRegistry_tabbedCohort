@@ -4,7 +4,7 @@ var data = {
     PatientGender: []
 };
 
-angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule'])
+angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'isteven-multi-select'])
 
     .controller('CohortsListCtrl', function ($scope, $rootScope, $http, cohortFactory) {
 
@@ -37,10 +37,14 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
     })
 
-    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, $http) {
+    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, $http, cohortFactory, $ionicModal) {
 
         $scope.gender = '';
 
+
+        $scope.inputCities = cohortFactory.getInputCities();
+
+        $scope.outputCities = [''];
 
         $scope.ageSlider = {
             min: 0,
@@ -125,6 +129,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             console.log(data);
 
+            //console.log($scope.inputCities);
             /*var JSONObj = angular.toJson($scope.data);
              console.log(JSONObj);
              console.log("posting Data");
@@ -151,13 +156,21 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 ////////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
 
         $scope.cityPopup = function () {
-            $scope.cityPopupDialog=$ionicPopup.show({
-                templateUrl: 'templates/filters/cityFilter.html',
-                title: 'City',
-                subtitle: 'Select Cities',
-                scope: $scope
-            });
-        };
+         $scope.cityPopupDialog=$ionicPopup.show({
+         templateUrl: 'templates/filters/cityFilter.html',
+         title: 'City',
+         subtitle: 'Select Cities',
+         scope: $scope
+         });
+         };
+
+
+        /*$ionicModal.fromTemplateUrl('templates/filters/cityFilter.html', {
+            scope: $scope/!*,
+            animation: 'slide-in-up'*!/
+        }).then(function (modal) {
+            $scope.modal = modal;
+        });*/
 
 
 //////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
