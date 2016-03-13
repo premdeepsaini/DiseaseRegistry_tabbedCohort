@@ -1,3 +1,9 @@
+var data = {
+    MinAge: 30,
+    MaxAge: 119,
+    PatientGender: []
+};
+
 angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule'])
 
     .controller('CohortsListCtrl', function ($scope, $rootScope, $http, cohortFactory) {
@@ -34,11 +40,6 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
     .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, $http) {
 
         $scope.gender = '';
-        var data = {
-            MinAge: 30,
-            MaxAge: 119,
-            PatientGender: []
-        };
 
 
         $scope.ageSlider = {
@@ -70,11 +71,11 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             console.log(data);
 
             /*var JSONObj = angular.toJson($scope.data);
-            console.log(JSONObj);
-            console.log("posting Data");
-            $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
-                console.log("Data Posted" + angular.toJson(data));
-            });*/
+             console.log(JSONObj);
+             console.log("posting Data");
+             $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
+             console.log("Data Posted" + angular.toJson(data));
+             });*/
 
             $scope.agePopupDialog.close();
         };
@@ -116,20 +117,20 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 data.PatientGender.push($scope.gender);
                 document.getElementById("genderText").style.color = "Blue";
                 document.getElementById("genderSelect").innerHTML = data.PatientGender[0];
-            console.log(data.PatientGender);
+                console.log(data.PatientGender);
             }
             else {
                 data.PatientGender.push('Male', 'Female');
             }
 
-            console.log($scope.ageSlider);
+            console.log(data);
 
             /*var JSONObj = angular.toJson($scope.data);
-            console.log(JSONObj);
-            console.log("posting Data");
-            $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
-                console.log("Data Posted" + angular.toJson(data));
-            });*/
+             console.log(JSONObj);
+             console.log("posting Data");
+             $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
+             console.log("Data Posted" + angular.toJson(data));
+             });*/
 
             $scope.genderPopupDialog.close();
         };
@@ -149,12 +150,21 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
 ////////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
 
+        $scope.cityPopup = function () {
+            $scope.cityPopupDialog=$ionicPopup.show({
+                templateUrl: 'templates/filters/cityFilter.html',
+                title: 'City',
+                subtitle: 'Select Cities',
+                scope: $scope
+            });
+        };
+
 
 //////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
 
         $scope.createCohortSubmit = function () {
 
-            var JSONObj = angular.toJson($scope.data);
+            var JSONObj = angular.toJson(data);
             console.log(JSONObj);
             console.log("posting Data");
             $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
