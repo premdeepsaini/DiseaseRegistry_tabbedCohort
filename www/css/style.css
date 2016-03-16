@@ -23,6 +23,7 @@
     padding-top: 15%;
     height: 150px;
 }
+
 .ageFooterCSS {
     height: 10px;
 }
@@ -94,3 +95,9 @@
 }
 
 /*City Filter Popup CSS Ends*/
+
+
+.addCohortFooterCSS{
+    font-size: 140%;
+    position: absolute;
+}

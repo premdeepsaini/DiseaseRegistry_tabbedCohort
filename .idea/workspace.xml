@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22fe968-3334-4e42-b2c2-556a0d51cb95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/ageFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/cityFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/genderFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
     </list>
     <ignored path="TabbedCohort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,56 +46,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cityFilter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.535714">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5151515">
-              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state vertical-scroll-proportion="-20.357143">
+              <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
               <folding>
                 <element signature="e#42#342#0" expanded="false" />
                 <element signature="e#360#422#0" expanded="false" />
                 <element signature="e#432#545#0" expanded="false" />
-                <element signature="e#560#581#0" expanded="false" />
-                <element signature="e#660#960#0" expanded="false" />
-                <element signature="e#975#1004#0" expanded="false" />
-                <element signature="e#1018#1130#0" expanded="false" />
-                <element signature="e#1151#1213#0" expanded="false" />
-                <element signature="e#1232#1253#0" expanded="false" />
-                <element signature="e#1335#1635#0" expanded="false" />
-                <element signature="e#1652#1673#0" expanded="false" />
-                <element signature="e#1693#1720#0" expanded="false" />
-                <element signature="e#1739#1801#0" expanded="false" />
+                <element signature="e#561#582#0" expanded="false" />
+                <element signature="e#661#961#0" expanded="false" />
+                <element signature="e#976#1005#0" expanded="false" />
+                <element signature="e#1019#1131#0" expanded="false" />
+                <element signature="e#1152#1214#0" expanded="false" />
+                <element signature="e#1233#1254#0" expanded="false" />
+                <element signature="e#1336#1636#0" expanded="false" />
+                <element signature="e#1653#1674#0" expanded="false" />
+                <element signature="e#1694#1721#0" expanded="false" />
+                <element signature="e#1740#1802#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ageFilter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.392857">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="genderFilter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7142856">
-              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,8 +74,10 @@
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-              <folding />
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#503#1098#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,11 +95,21 @@
       <file leaf-file-name="tab-AddCohort.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab-CohortsList.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45454547">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +124,6 @@
       <list>
         <option value="$PROJECT_DIR$/www/templates/tab-CohortsList.html" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/templates/ageFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/gender.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/city.html" />
@@ -153,12 +131,13 @@
         <option value="$PROJECT_DIR$/www/lib/isteven-multi-select/isteven-multi-select.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
       </list>
     </option>
   </component>
@@ -474,7 +453,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -534,7 +515,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,7 +562,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,7 +608,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +654,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +700,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +727,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -855,28 +840,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.030303031">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -902,7 +877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857">
+        <state vertical-scroll-proportion="0.15151516">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
           <folding />
         </state>
@@ -910,39 +885,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856">
+        <state vertical-scroll-proportion="0.121212125">
           <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5151515">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        <state vertical-scroll-proportion="-20.357143">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
           <folding>
             <element signature="e#42#342#0" expanded="false" />
             <element signature="e#360#422#0" expanded="false" />
             <element signature="e#432#545#0" expanded="false" />
-            <element signature="e#560#581#0" expanded="false" />
-            <element signature="e#660#960#0" expanded="false" />
-            <element signature="e#975#1004#0" expanded="false" />
-            <element signature="e#1018#1130#0" expanded="false" />
-            <element signature="e#1151#1213#0" expanded="false" />
-            <element signature="e#1232#1253#0" expanded="false" />
-            <element signature="e#1335#1635#0" expanded="false" />
-            <element signature="e#1652#1673#0" expanded="false" />
-            <element signature="e#1693#1720#0" expanded="false" />
-            <element signature="e#1739#1801#0" expanded="false" />
+            <element signature="e#561#582#0" expanded="false" />
+            <element signature="e#661#961#0" expanded="false" />
+            <element signature="e#976#1005#0" expanded="false" />
+            <element signature="e#1019#1131#0" expanded="false" />
+            <element signature="e#1152#1214#0" expanded="false" />
+            <element signature="e#1233#1254#0" expanded="false" />
+            <element signature="e#1336#1636#0" expanded="false" />
+            <element signature="e#1653#1674#0" expanded="false" />
+            <element signature="e#1694#1721#0" expanded="false" />
+            <element signature="e#1740#1802#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
