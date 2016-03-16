@@ -3,7 +3,7 @@
         <div class="card ">
             <div class="title">
                 <div class="item item-text item-text-wrap">
-                    Number Of Records Found:
+                    <input type="text" required placeholder="Enter Cohort Name" ng-model="cohortName">
                 </div>
             </div>
         </div>
@@ -20,7 +20,8 @@
             </ion-item>
 
             <ion-item ng-click="cityPopup()"><span id="cityText" class="padding-right">City</span>
-
+                <span id="citySelect" class="item-placeholder padding-left"></span>
+                <ion-option-button class="button button-assertive" ng-click="onCityClear()">Clear</ion-option-button>
             </ion-item>
         </ion-list>
 

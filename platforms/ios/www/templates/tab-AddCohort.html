@@ -1,0 +1,32 @@
+<ion-view view-title="Add New Cohort">
+    <ion-content>
+        <div class="card ">
+            <div class="title">
+                <div class="item item-text item-text-wrap">
+                    <input type="text" required placeholder="Enter Cohort Name" ng-model="cohortName">
+                </div>
+            </div>
+        </div>
+
+        <h2 class="placeholder-icon" style="padding-left: 35%">Filters</h2>
+        <ion-list delegate-handle="clearButton">
+            <ion-item ng-click="agePopup()"><span id="ageText" class="padding-right">Age</span>
+                <span id="ageRange" class="item-placeholder padding-left"></span>
+                <ion-option-button class="button button-assertive" ng-click="onAgeClear()">Clear</ion-option-button>
+            </ion-item>
+            <ion-item ng-click="genderPopup()"><span id="genderText" class="padding-right">Gender</span>
+                <span id="genderSelect" class="item-placeholder padding-left"></span>
+                <ion-option-button class="button button-assertive" ng-click="onGenderClear()">Clear</ion-option-button>
+            </ion-item>
+
+            <ion-item ng-click="cityPopup()"><span id="cityText" class="padding-right">City</span>
+                <span id="citySelect" class="item-placeholder padding-left"></span>
+                <ion-option-button class="button button-assertive" ng-click="onCityClear()">Clear</ion-option-button
+            </ion-item>
+        </ion-list>
+
+        <ion-footer-bar class="button  button-balanced" ng-click="createCohortSubmit()">Create Cohort
+            <!--<div class=" button button-calm button-block" ng-click="createCohortSubmit()">Create Cohort</div>-->
+        </ion-footer-bar>
+    </ion-content>
+</ion-view>
