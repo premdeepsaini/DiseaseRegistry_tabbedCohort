@@ -1,14 +1,22 @@
-<div ng-controller="AddCohortCtrl">
+<ion-view class="genderCSS" ng-controller="AddCohortCtrl">
+    <ion-header-bar view-title="Select Gender" class="padding-bottom">
+        <h2 class="selectGenderTitle">Select Gender</h2>
+    </ion-header-bar>
+    <ion-content class="has-header has-footer cardGender" scroll="false">
     <ion-list radio-group>
-        <ion-radio class="radio-positive radio-icon" ng-model="gender" ng-value="'Male'">Male</ion-radio>
+        <ion-radio class="radio-positive radio-icon genderRadio" ng-model="gender" ng-value="'Male'">
+           <span class=""> Male</span>
+        </ion-radio>
         <br>
-        <ion-radio class="radio-positive radio-icon" ng-model="gender" ng-value="'Female'">Female
+        <ion-radio class="radio-positive radio-icon genderRadio" ng-model="gender" ng-value="'Female'">Female
         </ion-radio>
     </ion-list>
-    <div class="row">
-        <input type="button" class="button button-assertive" value="Cancel" ng-click="GenderCancel()">
-        <div class="padding"></div>
-        <input type="button" class="button button-positive" value="Submit" ng-click="GenderSubmit()">
-    </div>
-
-</div>
+    </ion-content>
+    <ion-footer-bar class="genderFooterCSS">
+        <div class="row">
+            <input type="button" class="button button-assertive" value="Cancel" ng-click="GenderCancel()">
+            <div class="padding"></div>
+            <input type="button" class="button button-positive" value="Submit" ng-click="GenderSubmit()">
+        </div>
+    </ion-footer-bar>
+</ion-view>

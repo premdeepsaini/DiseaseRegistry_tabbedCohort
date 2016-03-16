@@ -2,80 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22fe968-3334-4e42-b2c2-556a0d51cb95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Classes/AppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Classes/AppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Classes/MainViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Classes/MainViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Classes/MainViewController.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/HelloCordova-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/HelloCordova-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-console/CDVLogger.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-console/CDVLogger.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-device/CDVDevice.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-device/CDVDevice.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-statusbar/CDVStatusBar.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/cordova-plugin-statusbar/CDVStatusBar.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/IonicKeyboard.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/IonicKeyboard.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/UIWebViewExtension.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/UIWebViewExtension.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/icons/icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-667h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-Landscape-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/exec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/platform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/chat-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tab-account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tab-chats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tab-dash.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/services.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tabs.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/platforms.json" afterPath="$PROJECT_DIR$/platforms/platforms.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/ageFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/cityFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/filters/genderFilter.html" afterPath="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
     </list>
     <ignored path="TabbedCohort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,23 +28,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33740458">
-              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="116" column="71" selection-start-line="116" selection-start-column="71" selection-end-line="116" selection-end-column="71" />
               <folding>
                 <element signature="e#315#1218#0" expanded="false" />
                 <element signature="e#1709#1879#0" expanded="false" />
                 <element signature="e#2036#2325#0" expanded="false" />
                 <element signature="e#3151#3281#0" expanded="false" />
                 <element signature="e#3328#3639#0" expanded="false" />
-                <element signature="e#3914#4202#0" expanded="false" />
-                <element signature="e#4252#4417#0" expanded="false" />
-                <element signature="e#5610#5891#0" expanded="false" />
-                <element signature="e#5938#6236#0" expanded="false" />
-                <element signature="e#6283#6866#0" expanded="false" />
-                <element signature="e#7394#8584#0" expanded="false" />
+                <element signature="e#4168#4333#0" expanded="false" />
+                <element signature="e#4382#4849#0" expanded="false" />
+                <element signature="e#5814#6112#0" expanded="false" />
+                <element signature="e#6159#6742#0" expanded="false" />
+                <element signature="e#7270#8460#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,29 +52,33 @@
       <file leaf-file-name="cityFilter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+            <state vertical-scroll-proportion="-11.535714">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="0.5151515">
+              <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+              <folding>
+                <element signature="e#42#342#0" expanded="false" />
+                <element signature="e#360#422#0" expanded="false" />
+                <element signature="e#432#545#0" expanded="false" />
+                <element signature="e#560#581#0" expanded="false" />
+                <element signature="e#660#960#0" expanded="false" />
+                <element signature="e#975#1004#0" expanded="false" />
+                <element signature="e#1018#1130#0" expanded="false" />
+                <element signature="e#1151#1213#0" expanded="false" />
+                <element signature="e#1232#1253#0" expanded="false" />
+                <element signature="e#1335#1635#0" expanded="false" />
+                <element signature="e#1652#1673#0" expanded="false" />
+                <element signature="e#1693#1720#0" expanded="false" />
+                <element signature="e#1739#1801#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +86,18 @@
       <file leaf-file-name="ageFilter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state vertical-scroll-proportion="-3.392857">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genderFilter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.7142856">
+              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -172,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1068" column="31" selection-start-line="1068" selection-start-column="31" selection-end-line="1068" selection-end-column="31" />
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -203,17 +148,17 @@
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/templates/ageFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/gender.html" />
-        <option value="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
-        <option value="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/city.html" />
         <option value="$PROJECT_DIR$/www/lib/isteven-multi-select/isteven-multi-select.css" />
         <option value="$PROJECT_DIR$/www/lib/isteven-multi-select/isteven-multi-select.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
+        <option value="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
+        <option value="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
       </list>
     </option>
   </component>
@@ -226,6 +171,28 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -252,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,45 +291,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,27 +377,46 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -481,7 +431,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -496,12 +446,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,12 +506,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,12 +566,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -663,12 +610,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -708,12 +654,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,12 +698,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -806,12 +750,11 @@
             <element signature="e#2036#2325#0" expanded="false" />
             <element signature="e#3151#3281#0" expanded="false" />
             <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -868,13 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7142856">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -903,65 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33740458">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding>
-            <element signature="e#315#1218#0" expanded="false" />
-            <element signature="e#1709#1879#0" expanded="false" />
-            <element signature="e#2036#2325#0" expanded="false" />
-            <element signature="e#3151#3281#0" expanded="false" />
-            <element signature="e#3328#3639#0" expanded="false" />
-            <element signature="e#3914#4202#0" expanded="false" />
-            <element signature="e#4252#4417#0" expanded="false" />
-            <element signature="e#5610#5891#0" expanded="false" />
-            <element signature="e#5938#6236#0" expanded="false" />
-            <element signature="e#6283#6866#0" expanded="false" />
-            <element signature="e#7394#8584#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="91" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -973,7 +850,7 @@
     <entry file="file://$PROJECT_DIR$/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1068" column="31" selection-start-line="1068" selection-start-column="31" selection-end-line="1068" selection-end-column="31" />
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -984,6 +861,87 @@
           <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18181819">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030303031">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="71" selection-start-line="116" selection-start-column="71" selection-end-line="116" selection-end-column="71" />
+          <folding>
+            <element signature="e#315#1218#0" expanded="false" />
+            <element signature="e#1709#1879#0" expanded="false" />
+            <element signature="e#2036#2325#0" expanded="false" />
+            <element signature="e#3151#3281#0" expanded="false" />
+            <element signature="e#3328#3639#0" expanded="false" />
+            <element signature="e#4168#4333#0" expanded="false" />
+            <element signature="e#4382#4849#0" expanded="false" />
+            <element signature="e#5814#6112#0" expanded="false" />
+            <element signature="e#6159#6742#0" expanded="false" />
+            <element signature="e#7270#8460#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="e#42#342#0" expanded="false" />
+            <element signature="e#360#422#0" expanded="false" />
+            <element signature="e#432#545#0" expanded="false" />
+            <element signature="e#560#581#0" expanded="false" />
+            <element signature="e#660#960#0" expanded="false" />
+            <element signature="e#975#1004#0" expanded="false" />
+            <element signature="e#1018#1130#0" expanded="false" />
+            <element signature="e#1151#1213#0" expanded="false" />
+            <element signature="e#1232#1253#0" expanded="false" />
+            <element signature="e#1335#1635#0" expanded="false" />
+            <element signature="e#1652#1673#0" expanded="false" />
+            <element signature="e#1693#1720#0" expanded="false" />
+            <element signature="e#1739#1801#0" expanded="false" />
           </folding>
         </state>
       </provider>

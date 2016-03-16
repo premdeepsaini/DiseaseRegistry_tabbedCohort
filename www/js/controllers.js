@@ -115,8 +115,6 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
                 $scope.genderPopupDialog = $ionicPopup.show({
                     templateUrl: 'templates/filters/genderFilter.html',
-                    title: 'Gender',
-                    subtitle: 'Select Gender',
                     scope: $scope
                 });
             };
@@ -159,9 +157,8 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.cityPopup = function () {
                 $scope.cityPopupDialog = $ionicPopup.show({
+                    cssClass:'genderCSS',
                     templateUrl: 'templates/filters/cityFilter.html',
-                    title: 'City',
-                    subtitle: 'Select Cities',
                     scope: $scope
                 });
             };
