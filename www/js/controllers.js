@@ -42,7 +42,9 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
     .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, $http, cohortFactory) {
 
             $scope.gender = '';
-            $scope.cohortName = "";
+            $scope.cohortName = {
+                name:''
+            };
 
 
             $scope.inputCities = cohortFactory.getInputCities();
@@ -128,8 +130,14 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.GenderSubmit = function () {
 
+                console.log($scope.gender);
                 if ($scope.gender != '') {
+                    if(data.PatientGender.length !=0){
+                        data.PatientGender=[];
+                        console.log("On clearing"+angular.toJson(data));
+                    }
                     data.PatientGender.push($scope.gender);
+                    console.log("After Clearing"+angular.toJson(data));
                     document.getElementById("genderText").style.color = "Blue";
                     document.getElementById("genderSelect").innerHTML = data.PatientGender[0];
                 }
@@ -175,6 +183,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.CitySubmit = function () {
 
+                data.City=[];
                 for (i = 0; i < $scope.inputCities.length; i++) {
                     if ($scope.inputCities[i].checked == true) {
                         data.City.push($scope.inputCities[i].city);
@@ -184,7 +193,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
                 document.getElementById("cityText").style.color = "Blue";
                 document.getElementById("citySelect").innerHTML = data.City.length + " Cities selected";
-                console.log(data.City);
+                console.log(data);
                 $scope.cityPopupDialog.close();
             };
 
@@ -201,9 +210,10 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.createCohortSubmit = function () {
 
-                data.CohortName = $scope.cohortName;
+                console.log($scope.cohortName);
+                data.CohortName = $scope.cohortName.name;
 
-                if (!data.CohortName.length) {
+                if (data.CohortName.length==0) {
 
                     alert("Please Enter Cohort Name..!!");
                     return;
@@ -234,7 +244,6 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                  $http.post("http://192.168.10.202/api/Filters", JSONObj).success(function (data) {
                  console.log("Data Posted" + angular.toJson(data));
                  });*/
-            }
-            ;
+            };
         }
     );
