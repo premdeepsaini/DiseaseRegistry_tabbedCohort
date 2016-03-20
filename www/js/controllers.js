@@ -19,23 +19,21 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         }
 
         $scope.doRefresh = function () {
-            cohortFactory.getCohortList()
-                .success(function (data) {
-                    $scope.cohorts = data;
-                    $scope.$broadcast('scroll.refreshComplete');
-                });
+            getCohortList();
+            $scope.$broadcast('scroll.refreshComplete');
+
         };
 
         $scope.getCohort = function (cohort) {
             $rootScope.cohort_name = cohort.name;
-            $rootScope.cohortId = cohort.id;
+            $rootScope.patient_count=cohort.PatientsCount;
             $rootScope.cohort_id = cohort._id;
+
         };
 
         $scope.deleteCohort = function (cohort) {
-            cohortFactory.deleteCohort(cohort).then(function (cohort) {
-                $scope.cohorts.splice($scope.cohorts.indexOf(cohort), 1);
-            });
+            $scope.cohorts.splice($scope.cohorts.indexOf(cohort), 1);
+            cohortFactory.deleteCohort(cohort);
         };
     })
 
@@ -226,24 +224,13 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     data.PatientGender.push('Male', 'Female');
                 }
 
-                if (data.City.length == 0) {
-                    for (i = 0; i < $scope.inputCities.length; i++) {
-                        data.City.push($scope.inputCities[i].city);
-                    }
-                }
 
                 var JSONObj = angular.toJson(data);
                 console.log(JSONObj);
                 console.log("posting Data");
-                $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
+                cohortFactory.postFilters(JSONObj).success(function (data) {
                     console.log("Data Posted" + angular.toJson(data));
                 });
-
-
-                /*
-                 $http.post("http://192.168.10.202/api/Filters", JSONObj).success(function (data) {
-                 console.log("Data Posted" + angular.toJson(data));
-                 });*/
             };
         }
     );

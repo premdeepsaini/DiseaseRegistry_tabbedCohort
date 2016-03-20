@@ -1,7 +1,7 @@
 angular.module('DiseaseRegistry.services', [])
     .factory('cohortFactory', function ($http) {
 
-        var url = "http://diseaseregistry-59621.onmodulus.net/api/Cohorts";
+        var url = "http://diseaseregistry2-60407.onmodulus.net/api/";
 
         //var url= "http://192.168.10.202/api/Cohorts";
         var cities = [{"city": "Mumbai", "checked": false},
@@ -1224,17 +1224,20 @@ angular.module('DiseaseRegistry.services', [])
         return {
 
             getCohortList: function () {
-                return $http.get(url);
+                return $http.get(url+"Cohorts");
             },
 
             deleteCohort: function (cohort) {
-                url += "/" + cohort._id;
-                return $http.delete(url);
+                $http.delete(url+ "Cohorts/" + cohort._id);
+
             },
 
             getInputCities: function () {
 
                 return cities;
+            },
+            postFilters: function(JSONObj){
+                return $http.post(url+"Filters", JSONObj);
             }
         };
     });
