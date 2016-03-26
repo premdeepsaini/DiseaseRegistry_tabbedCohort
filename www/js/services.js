@@ -1227,6 +1227,11 @@ angular.module('DiseaseRegistry.services', [])
                 return $http.get(url+"Cohorts");
             },
 
+            getPatientsList: function(cohort_id){
+
+                return $http.get(url+"Cohorts/" +cohort_id);
+            },
+
             deleteCohort: function (cohort) {
                 $http.delete(url+ "Cohorts/" + cohort._id);
 
@@ -1238,6 +1243,9 @@ angular.module('DiseaseRegistry.services', [])
             },
             postFilters: function(JSONObj){
                 return $http.post(url+"Filters", JSONObj);
+            },
+            getPatient:function(patientID){
+                return $http.get(url+"Patients?PatientID="+patientID);
             }
         };
     });

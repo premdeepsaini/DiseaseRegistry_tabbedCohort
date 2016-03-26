@@ -101,3 +101,14 @@
     font-size: 140%;
     position: absolute;
 }
+
+.patientPopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px; /* adjust as per your needs */
+    height: 250px; /* adjust as per your needs */
+    margin-left: -150px; /* negative half of width above */
+    margin-top: -130px; /* negative half of height above */
+    border-radius: 10px;
+}

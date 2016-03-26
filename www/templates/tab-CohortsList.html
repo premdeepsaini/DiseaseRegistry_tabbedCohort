@@ -14,8 +14,8 @@
       <div ng-repeat="cohort in cohorts | filter:query | orderBy:'name'">
         <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/tab/Details"
                   ng-click="getCohort(cohort)">
-          <h4>{{cohort.name}}</h4><br>
-          <div>{{cohort.patient_count}}</div>
+          <h2>{{cohort.Name}}</h2><br>
+          <p>{{cohort.PatientsCount}}</p>
           <i class="icon ion-chevron-right icon-accessory"></i>
 
           <ion-option-button class="button-assertive" ng-click="deleteCohort(cohort)">
