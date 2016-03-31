@@ -3,12 +3,13 @@ var data = {
     MinAge: 0,
     MaxAge: 150,
     PatientGender: [],
-    City: []
+    City: [],
+    Diseases: []
 };
 
 angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect'])
 
-    .controller('CohortsListCtrl', function ($scope, $rootScope,$ionicPopup, cohortFactory) {
+    .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
 
         getCohortList();
 
@@ -42,20 +43,36 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
 
         $scope.getPatientDetails = function (patientID) {
-                cohortFactory.getPatient(patientID).then(function(response){
-                    $rootScope.patientDetails=response.data;
-                    console.log("sadas"+angular.toJson($rootScope.patientDetails));
+            cohortFactory.getPatient(patientID).then(function (response) {
+                $rootScope.patientDetails = response.data;
+                /*console.log("sadas" + angular.toJson($rootScope.patientDetails));*/
+                $scope.patientDetailsPopup();
+            });
 
-                    $scope.patientDetailsPopup();
-                });
-            
         };
 
 
-        $scope.patientDetailsPopup=function(){
-            $scope.patientDetailsPopupDialog=$ionicPopup.show({
-                templateUrl:'templates/patientDetails.html'
+        $scope.patientDetailsPopup = function () {
+            $scope.patientDetailsPopupDialog = $ionicPopup.alert({
+                template: '<div class="padding-left" ng-repeat="patient in patientDetails">'
+                + '<h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>'
+                + '<h4>Gender: {{patient.PatientGender}}</h4>'
+                + '<h4>Date-of-Birth: {{patient.PatientDateOfBirth | date:"yyyy-MM-dd"}}</h4>'
+                + '<h4>City: {{patient.City}}</h4>'
+                + '<h4>Marital Status: {{patient.PatientMaritalStatus}}</h4>'
+                + '</div>',
+                okText: 'Close',
+                okType: 'button-assertive'
+
             });
+
+            /*console.log($scope.patientDetailsPopupDialog);*/
+        };
+
+        $scope.patientDetailsClose = function () {
+
+            $scope.patientDetailsPopupDialog.close();
+
         };
     })
 
@@ -69,6 +86,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.inputCities = cohortFactory.getInputCities();
 
+            $scope.inputDiseases = cohortFactory.getDiseaseList();
 
             $scope.cityDropdownSettings = {
                 enableSearch: "true",
@@ -226,8 +244,53 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 $ionicListDelegate.$getByHandle('clearButton').closeOptionButtons();
             }
 
-//////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
+//////////////////////////////////City Filter Ends///////////////////////////////////////////////////////////
 
+//////////////////////////////////Disease Filter Begin///////////////////////////////////////////////////////////
+
+            $scope.diseasePopup = function () {
+                $scope.diseasePopupDialog = $ionicPopup.show({
+                    cssClass: 'diseaseCSS',
+                    templateUrl: 'templates/filters/diseaseFilter.html',
+                    scope: $scope
+                });
+            };
+
+            $scope.DiseaseCancel = function () {
+
+                for (i = 0; i < $scope.inputDiseases.length; i++) {
+                    if ($scope.inputDiseases[i].checked == true) {
+                        $scope.inputDiseases[i].checked = false;
+                    }
+                }
+                $scope.diseasePopupDialog.close();
+            };
+
+            $scope.DiseaseSubmit = function () {
+
+                data.Diseases = [];
+                for (i = 0; i < $scope.inputDiseases.length; i++) {
+                    if ($scope.inputDiseases[i].checked == true) {
+                        data.Diseases.push($scope.inputDiseases[i].disease);
+                        $scope.inputDiseases.checked = false;
+                    }
+                }
+
+                document.getElementById("diseaseText").style.color = "Blue";
+                document.getElementById("diseaseSelect").innerHTML = data.Diseases.length + " Diseases selected";
+                console.log(data);
+                $scope.diseasePopupDialog.close();
+            };
+
+            $scope.onDiseaseClear = function () {
+                data.Disease= [];
+                console.log(data.Disease);
+
+                document.getElementById("diseaseText").style.color = "Black";
+                document.getElementById("diseaseSelect").innerHTML = "";
+                $ionicListDelegate.$getByHandle('clearButton').closeOptionButtons();
+            }
+//////////////////////////////////Disease Filter Ends///////////////////////////////////////////////////////////
             $scope.createCohortSubmit = function () {
 
                 console.log($scope.cohortName);

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22fe968-3334-4e42-b2c2-556a0d51cb95" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/filters/diseaseFilter.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/templates/patientDetails.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/cohort-detail.html" afterPath="$PROJECT_DIR$/www/templates/cohort-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-CohortsList.html" afterPath="$PROJECT_DIR$/www/templates/tab-CohortsList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
     </list>
     <ignored path="TabbedCohort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,43 +29,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+            <state relative-caret-position="418">
+              <caret line="279" column="69" selection-start-line="279" selection-start-column="69" selection-end-line="279" selection-end-column="69" />
               <folding>
-                <element signature="e#382#526#0" expanded="false" />
-                <element signature="e#567#665#0" expanded="false" />
-                <element signature="e#713#1113#0" expanded="false" />
-                <element signature="e#1164#1293#0" expanded="false" />
-                <element signature="e#2198#2364#0" expanded="false" />
-                <element signature="e#2398#2568#0" expanded="false" />
-                <element signature="e#3060#3794#0" expanded="false" />
-                <element signature="e#3840#3970#0" expanded="false" />
-                <element signature="e#4017#4328#0" expanded="false" />
-                <element signature="e#4603#4807#0" expanded="false" />
-                <element signature="e#4857#5022#0" expanded="false" />
-                <element signature="e#5071#5860#0" expanded="false" />
-                <element signature="e#5911#6263#0" expanded="false" />
-                <element signature="e#6537#6779#0" expanded="false" />
-                <element signature="e#6826#7124#0" expanded="false" />
-                <element signature="e#7171#7781#0" expanded="false" />
-                <element signature="e#7829#8147#0" expanded="false" />
-                <element signature="e#8313#9082#0" expanded="false" />
-                <element signature="e#8472#8579#0" expanded="false" />
-                <element signature="e#8681#8763#0" expanded="false" />
-                <element signature="e#8976#9066#0" expanded="false" />
+                <element signature="e#339#2566#0" expanded="false" />
+                <element signature="e#401#545#0" expanded="false" />
+                <element signature="e#586#684#0" expanded="false" />
+                <element signature="e#732#1132#0" expanded="false" />
+                <element signature="e#1183#1312#0" expanded="false" />
+                <element signature="e#2735#2775#0" expanded="false" />
+                <element signature="e#2955#3121#0" expanded="false" />
+                <element signature="e#3155#3325#0" expanded="false" />
+                <element signature="e#3542#3754#0" expanded="false" />
+                <element signature="e#3817#4551#0" expanded="false" />
+                <element signature="e#4774#5085#0" expanded="false" />
+                <element signature="e#5360#5564#0" expanded="false" />
+                <element signature="e#5614#5779#0" expanded="false" />
+                <element signature="e#5828#6617#0" expanded="false" />
+                <element signature="e#6668#7020#0" expanded="false" />
+                <element signature="e#9178#9427#0" expanded="false" />
+                <element signature="e#9477#9784#0" expanded="false" />
+                <element signature="e#10529#10858#0" expanded="false" />
+                <element signature="e#11183#11290#0" expanded="false" />
+                <element signature="e#11392#11474#0" expanded="false" />
+                <element signature="e#11687#11777#0" expanded="false" />
+                <marker date="1459455956000" expanded="true" signature="1877:2094" placeholder="..." />
+                <marker date="1459455956000" expanded="true" signature="1877:2105" placeholder="..." />
+                <marker date="1459455956000" expanded="true" signature="1877:2270" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patientDetails.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/templates/patientDetails.html">
+      <file leaf-file-name="cityFilter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+            <state relative-caret-position="396">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -72,8 +77,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+            <state relative-caret-position="569">
+              <caret line="127" column="15" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
               <folding>
                 <element signature="e#360#422#0" expanded="false" />
                 <element signature="e#432#545#0" expanded="false" />
@@ -87,8 +92,21 @@
                 <element signature="e#1653#1674#0" expanded="false" />
                 <element signature="e#1694#1721#0" expanded="false" />
                 <element signature="e#1740#1802#0" expanded="false" />
-                <element signature="e#1856#1904#0" expanded="false" />
+                <element signature="e#1919#2219#0" expanded="false" />
+                <element signature="e#2232#2533#0" expanded="false" />
+                <element signature="e#2550#2603#0" expanded="false" />
+                <element signature="e#2624#2686#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diseaseFilter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/filters/diseaseFilter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +114,7 @@
       <file leaf-file-name="genderFilter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="286">
               <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
@@ -106,8 +124,8 @@
       <file leaf-file-name="tab-AddCohort.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+            <state relative-caret-position="503">
+              <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
@@ -118,7 +136,7 @@
       <file leaf-file-name="tab-CohortsList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="352">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding />
             </state>
@@ -138,7 +156,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
+            <state relative-caret-position="336">
               <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
               <folding>
                 <element signature="e#503#1098#0" expanded="false" />
@@ -150,10 +168,11 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="1247" column="33" selection-start-line="1247" selection-start-column="33" selection-end-line="1247" selection-end-column="33" />
+            <state relative-caret-position="176">
+              <caret line="1222" column="0" selection-start-line="1222" selection-start-column="0" selection-end-line="1222" selection-end-column="0" />
               <folding>
                 <element signature="e#245#63853#0" expanded="false" />
+                <element signature="e#63877#434390#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -176,15 +195,17 @@
         <option value="$PROJECT_DIR$/www/templates/filters/cityFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/ageFilter.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/templates/filters/genderFilter.html" />
         <option value="$PROJECT_DIR$/www/templates/tab-CohortsList.html" />
         <option value="$PROJECT_DIR$/www/templates/cohort-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/patientDetails.html" />
+        <option value="$PROJECT_DIR$/www/templates/filters/disease.html" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
+        <option value="$PROJECT_DIR$/www/templates/filters/diseaseFilter.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
-        <option value="$PROJECT_DIR$/www/templates/patientDetails.html" />
       </list>
     </option>
   </component>
@@ -195,8 +216,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,95 +267,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabbedCohort 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,14 +278,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/templates/filters" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/templates/filters" />
     </key>
   </component>
@@ -424,17 +360,20 @@
       <workItem from="1458221553415" duration="39000" />
       <workItem from="1458229930015" duration="3887000" />
       <workItem from="1458493133996" duration="5840000" />
+      <workItem from="1459448079223" duration="2000" />
+      <workItem from="1459448084450" duration="122000" />
+      <workItem from="1459448228123" duration="6362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9766000" />
+    <option name="totallyTimeSpent" value="16252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16180556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,12 +400,12 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32796487" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15519765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16180556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,538 +424,88 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#63853#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+            <element signature="e#339#2566#0" expanded="false" />
+            <element signature="e#401#545#0" expanded="false" />
+            <element signature="e#586#684#0" expanded="false" />
+            <element signature="e#732#1132#0" expanded="false" />
+            <element signature="e#1183#1312#0" expanded="false" />
+            <element signature="e#2735#2775#0" expanded="false" />
+            <element signature="e#2955#3121#0" expanded="false" />
+            <element signature="e#3155#3325#0" expanded="false" />
+            <element signature="e#3542#3754#0" expanded="false" />
+            <element signature="e#3817#4551#0" expanded="false" />
+            <element signature="e#4774#5085#0" expanded="false" />
+            <element signature="e#5360#5564#0" expanded="false" />
+            <element signature="e#5614#5779#0" expanded="false" />
+            <element signature="e#5828#6617#0" expanded="false" />
+            <element signature="e#6668#7020#0" expanded="false" />
+            <element signature="e#9178#9427#0" expanded="false" />
+            <element signature="e#9477#9784#0" expanded="false" />
+            <element signature="e#10529#10858#0" expanded="false" />
+            <element signature="e#11183#11290#0" expanded="false" />
+            <element signature="e#11392#11474#0" expanded="false" />
+            <element signature="e#11687#11777#0" expanded="false" />
+            <marker date="1459455956000" expanded="true" signature="1877:2094" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2105" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2270" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
+            <element signature="e#339#2566#0" expanded="false" />
+            <element signature="e#401#545#0" expanded="false" />
+            <element signature="e#586#684#0" expanded="false" />
+            <element signature="e#732#1132#0" expanded="false" />
+            <element signature="e#1183#1312#0" expanded="false" />
+            <element signature="e#2735#2775#0" expanded="false" />
+            <element signature="e#2955#3121#0" expanded="false" />
+            <element signature="e#3155#3325#0" expanded="false" />
+            <element signature="e#3542#3754#0" expanded="false" />
+            <element signature="e#3817#4551#0" expanded="false" />
+            <element signature="e#4774#5085#0" expanded="false" />
+            <element signature="e#5360#5564#0" expanded="false" />
+            <element signature="e#5614#5779#0" expanded="false" />
+            <element signature="e#5828#6617#0" expanded="false" />
+            <element signature="e#6668#7020#0" expanded="false" />
+            <element signature="e#9178#9427#0" expanded="false" />
+            <element signature="e#9477#9784#0" expanded="false" />
+            <element signature="e#10529#10858#0" expanded="false" />
+            <element signature="e#11183#11290#0" expanded="false" />
+            <element signature="e#11392#11474#0" expanded="false" />
+            <element signature="e#11687#11777#0" expanded="false" />
+            <marker date="1459455956000" expanded="true" signature="1877:2094" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2105" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2270" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="73" />
-          <folding>
-            <element signature="e#245#63853#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/diseaseFilter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/cohort-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/isteven-multi-select/isteven-multi-select.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="298" column="1" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/isteven-multi-select/isteven-multi-select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1110" column="5" selection-start-line="1110" selection-start-column="5" selection-end-line="1110" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/lib/angularjs-dropdown-multiselect/pages/stylesheets/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/ageFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="e#503#1098#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/cohort-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="840">
           <caret line="112" column="24" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
           <folding>
             <element signature="e#360#422#0" expanded="false" />
@@ -1031,56 +520,191 @@
             <element signature="e#1653#1674#0" expanded="false" />
             <element signature="e#1694#1721#0" expanded="false" />
             <element signature="e#1740#1802#0" expanded="false" />
-            <element signature="e#1856#1904#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/cohort-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="495">
           <caret line="1247" column="33" selection-start-line="1247" selection-start-column="33" selection-end-line="1247" selection-end-column="33" />
           <folding>
             <element signature="e#245#63853#0" expanded="false" />
+            <element signature="e#63877#434390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/genderFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+          <folding>
+            <element signature="e#503#1098#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/cohort-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="103" selection-start-line="23" selection-start-column="103" selection-end-line="23" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1222" column="0" selection-start-line="1222" selection-start-column="0" selection-end-line="1222" selection-end-column="0" />
+          <folding>
+            <element signature="e#245#63853#0" expanded="false" />
+            <element signature="e#63877#434390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="127" column="15" selection-start-line="127" selection-start-column="15" selection-end-line="127" selection-end-column="15" />
+          <folding>
+            <element signature="e#360#422#0" expanded="false" />
+            <element signature="e#432#545#0" expanded="false" />
+            <element signature="e#561#582#0" expanded="false" />
+            <element signature="e#661#961#0" expanded="false" />
+            <element signature="e#976#1005#0" expanded="false" />
+            <element signature="e#1019#1131#0" expanded="false" />
+            <element signature="e#1152#1214#0" expanded="false" />
+            <element signature="e#1233#1254#0" expanded="false" />
+            <element signature="e#1336#1636#0" expanded="false" />
+            <element signature="e#1653#1674#0" expanded="false" />
+            <element signature="e#1694#1721#0" expanded="false" />
+            <element signature="e#1740#1802#0" expanded="false" />
+            <element signature="e#1919#2219#0" expanded="false" />
+            <element signature="e#2232#2533#0" expanded="false" />
+            <element signature="e#2550#2603#0" expanded="false" />
+            <element signature="e#2624#2686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/filters/diseaseFilter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="418">
+          <caret line="279" column="69" selection-start-line="279" selection-start-column="69" selection-end-line="279" selection-end-column="69" />
           <folding>
-            <element signature="e#382#526#0" expanded="false" />
-            <element signature="e#567#665#0" expanded="false" />
-            <element signature="e#713#1113#0" expanded="false" />
-            <element signature="e#1164#1293#0" expanded="false" />
-            <element signature="e#2198#2364#0" expanded="false" />
-            <element signature="e#2398#2568#0" expanded="false" />
-            <element signature="e#3060#3794#0" expanded="false" />
-            <element signature="e#3840#3970#0" expanded="false" />
-            <element signature="e#4017#4328#0" expanded="false" />
-            <element signature="e#4603#4807#0" expanded="false" />
-            <element signature="e#4857#5022#0" expanded="false" />
-            <element signature="e#5071#5860#0" expanded="false" />
-            <element signature="e#5911#6263#0" expanded="false" />
-            <element signature="e#6537#6779#0" expanded="false" />
-            <element signature="e#6826#7124#0" expanded="false" />
-            <element signature="e#7171#7781#0" expanded="false" />
-            <element signature="e#7829#8147#0" expanded="false" />
-            <element signature="e#8313#9082#0" expanded="false" />
-            <element signature="e#8472#8579#0" expanded="false" />
-            <element signature="e#8681#8763#0" expanded="false" />
-            <element signature="e#8976#9066#0" expanded="false" />
+            <element signature="e#339#2566#0" expanded="false" />
+            <element signature="e#401#545#0" expanded="false" />
+            <element signature="e#586#684#0" expanded="false" />
+            <element signature="e#732#1132#0" expanded="false" />
+            <element signature="e#1183#1312#0" expanded="false" />
+            <element signature="e#2735#2775#0" expanded="false" />
+            <element signature="e#2955#3121#0" expanded="false" />
+            <element signature="e#3155#3325#0" expanded="false" />
+            <element signature="e#3542#3754#0" expanded="false" />
+            <element signature="e#3817#4551#0" expanded="false" />
+            <element signature="e#4774#5085#0" expanded="false" />
+            <element signature="e#5360#5564#0" expanded="false" />
+            <element signature="e#5614#5779#0" expanded="false" />
+            <element signature="e#5828#6617#0" expanded="false" />
+            <element signature="e#6668#7020#0" expanded="false" />
+            <element signature="e#9178#9427#0" expanded="false" />
+            <element signature="e#9477#9784#0" expanded="false" />
+            <element signature="e#10529#10858#0" expanded="false" />
+            <element signature="e#11183#11290#0" expanded="false" />
+            <element signature="e#11392#11474#0" expanded="false" />
+            <element signature="e#11687#11777#0" expanded="false" />
+            <marker date="1459455956000" expanded="true" signature="1877:2094" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2105" placeholder="..." />
+            <marker date="1459455956000" expanded="true" signature="1877:2270" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/patientDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>

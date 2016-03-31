@@ -112,3 +112,26 @@
     margin-top: -130px; /* negative half of height above */
     border-radius: 10px;
 }
+
+.diseaseCSS{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px; /* adjust as per your needs */
+    height: 250px; /* adjust as per your needs */
+    margin-left: -150px; /* negative half of width above */
+    margin-top: -130px; /* negative half of height above */
+    border-radius: 10px;
+
+}
+
+.diseaseFontCSS{
+    font-size: 85%;
+    /*word-wrap:break-word;*/
+}
+
+.selectDiseaseTitle{
+    position: relative;
+    left: 10%;
+    color: #4b8bf4;
+}

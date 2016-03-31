@@ -23,6 +23,11 @@
                 <span id="citySelect" class="item-placeholder padding-left"></span>
                 <ion-option-button class="button button-assertive" ng-click="onCityClear()">Clear</ion-option-button>
             </ion-item>
+
+            <ion-item ng-click="diseasePopup()"><span id="diseaseText" class="padding-right">Disease</span>
+                <span id="diseaseSelect" class="item-placeholder padding-left"></span>
+                <ion-option-button class="button button-assertive" ng-click="onDiseaseClear()">Clear</ion-option-button>
+            </ion-item>
         </ion-list>
     </ion-content>
     <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit()">Create Cohort

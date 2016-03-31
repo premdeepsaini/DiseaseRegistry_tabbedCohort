@@ -1,9 +1,0 @@
-<ion-view  class="patientPopup" ng-controller="CohortsListCtrl">
-    <ion-content ng-repeat="patient in patientDetails">
-        <h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>
-        <h4>Gender: {{patient.PatientGender}}</h4>
-        <h4>Date-of-Birth: {{patient.PatientDateOfBirth | date:'yyyy-MM-dd'}}</h4>
-        <h4>City: {{patient.City}}</h4>
-        <h4>Marital Status: {{patient.PatientMaritalStatus}}</h4>
-    </ion-content>
-</ion-view>
