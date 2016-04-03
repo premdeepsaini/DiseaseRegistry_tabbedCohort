@@ -245,6 +245,11 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.onCityClear = function () {
                 data.City = [];
                 console.log(data.City);
+                for (i = 0; i < $scope.inputCities.length; i++) {
+                    if ($scope.inputCities[i].checked == true) {
+                        $scope.inputCities[i].checked = false;
+                    }
+                }
 
                 document.getElementById("cityText").style.color = "Black";
                 document.getElementById("citySelect").innerHTML = "";
@@ -292,13 +297,17 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.onDiseaseClear = function () {
                 data.Disease= [];
                 console.log(data.Disease);
-
+                for (i = 0; i < $scope.inputDiseases.length; i++) {
+                    if ($scope.inputDiseases[i].checked == true) {
+                        $scope.inputDiseases[i].checked = false;
+                    }
+                }
                 document.getElementById("diseaseText").style.color = "Black";
                 document.getElementById("diseaseSelect").innerHTML = "";
                 $ionicListDelegate.$getByHandle('clearButton').closeOptionButtons();
             }
 //////////////////////////////////Disease Filter Ends///////////////////////////////////////////////////////////
-            $scope.createCohortSubmit = function (index) {
+            $scope.createCohortSubmit = function () {
 
                 console.log($scope.cohortName);
                 data.CohortName = $scope.cohortName.name;
@@ -325,8 +334,10 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $scope.onGenderClear();
                     $scope.onAgeClear();
                     $scope.onCityClear();
+                    document.getElementById("cohortNameField").innerHTML = "";
                     console.log("Data Posted" + angular.toJson(data));
-                    $ionicTabsDelegate.select(index);
+                    //$cordovaToast.showLongBottom("Cohort Created");
+                    $ionicTabsDelegate.$getByHandle('tab1').select(0);
                 });
             };
         }

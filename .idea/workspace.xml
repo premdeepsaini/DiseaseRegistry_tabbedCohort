@@ -2,400 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a22fe968-3334-4e42-b2c2-556a0d51cb95" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/aidl/debug/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/tmp/packageDebugJar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/appinfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/exec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/spawn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/bin/which" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/which.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDV.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailability.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVConfigParser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVConfigParser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVDebug.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON_private.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVJSON_private.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPlugin.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVShared.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVTimer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVTimer.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSData+Base64.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/icons/icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-568h@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-667h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-Landscape-736h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-Landscape~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default-Portrait~ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default@2x~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Resources/splash/Default~iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/copy-www-build-step.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/node_modules/abbrev/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/AuthenticationToken.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/AuthenticationToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/BuildConfig.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CallbackContext.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CallbackContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Config.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ConfigXmlParser.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ConfigXmlParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$3.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaArgs.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaArgs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaClientCertRequest.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaClientCertRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$3.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$4.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$5.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$6.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$7.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$8.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$9.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$Result.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$Result.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaHttpAuthHandler.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaHttpAuthHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterface.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPlugin.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPlugin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPreferences.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPreferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebView.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$Client.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$EngineView.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$EngineView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$3.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$3.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$4.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$5.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ExposedJsApi.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ExposedJsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaClientCertRequest.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaClientCertRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaCookieManager.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaCookieManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaHttpAuthHandler.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaHttpAuthHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/LOG.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/LOG.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginEntry.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginManager.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult$Status.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult$Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist$URLPattern.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist$URLPattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemCookieManager.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemCookieManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemExposedJsApi.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemExposedJsApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$3.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$4.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$5.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebView.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewClient.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$1.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$2.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine.class" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gitignore" afterPath="$PROJECT_DIR$/platforms/android/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/nativeapiprovider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/android/promptbasednativeapi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova-js-src/plugin/android/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-device/www/device.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-device/www/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-whitelist/whitelist.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-whitelist/whitelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/platforms/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/build" afterPath="$PROJECT_DIR$/platforms/android/cordova/build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/build.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/build.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/check_reqs.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/check_reqs.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/clean" afterPath="$PROJECT_DIR$/platforms/android/cordova/clean" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/clean.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/clean.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/defaults.xml" afterPath="$PROJECT_DIR$/platforms/android/cordova/defaults.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/build.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/check_reqs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/device.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/emulator.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/emulator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/log.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/plugin-build.gradle" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/plugin-build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/retry.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/retry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/run.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/log.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/log.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/LICENSE" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/lib/nopt.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/lib/nopt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/LICENSE" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/README.md" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/q.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/q.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/queue.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.documentup.json" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.documentup.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.jshintrc" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.jshintrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.npmignore" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.travis.yml" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/LICENSE" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/README.md" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/global.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/make.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/make.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/shell.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/shell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cat.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cd.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/chmod.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/chmod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/common.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cp.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/dirs.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/dirs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/echo.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/echo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/error.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/exec.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/find.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/find.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/grep.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/grep.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/ls.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/ls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mv.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/popd.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/popd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pushd.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pushd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pwd.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pwd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/rm.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/rm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/sed.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/sed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/test.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/to.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/to.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/which.js" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/which.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/run" afterPath="$PROJECT_DIR$/platforms/android/cordova/run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/run.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/run.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/version" afterPath="$PROJECT_DIR$/platforms/android/cordova/version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/cordova/version.bat" afterPath="$PROJECT_DIR$/platforms/android/cordova/version.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/nativeapiprovider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova-js-src/plugin/android/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-device/www/device.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-device/www/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-whitelist/whitelist.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-plugin-whitelist/whitelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/plugins/ionic-plugin-keyboard/www/android/keyboard.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/ionic-plugin-keyboard/www/android/keyboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/project.properties" afterPath="$PROJECT_DIR$/platforms/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/settings.gradle" afterPath="$PROJECT_DIR$/platforms/android/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/tabscohort207038/MainActivity.java" afterPath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/tabscohort207038/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/.gitignore" afterPath="$PROJECT_DIR$/platforms/ios/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/.gitignore" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/AppDelegate.h" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/AppDelegate.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.h" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.xib" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Classes/MainViewController.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/Plugins/README" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/Plugins/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/TabsCohort-Info.plist" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/TabsCohort-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/TabsCohort-Prefix.pch" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/TabsCohort-Prefix.pch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/TabsCohort/main.m" afterPath="$PROJECT_DIR$/platforms/ios/TabsCohort/main.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-debug.xcconfig" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build-debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-release.xcconfig" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build-release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" afterPath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs" afterPath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean" afterPath="$PROJECT_DIR$/platforms/ios/cordova/clean" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean.bat" afterPath="$PROJECT_DIR$/platforms/ios/cordova/clean.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/defaults.xml" afterPath="$PROJECT_DIR$/platforms/ios/cordova/defaults.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/build.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/check_reqs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/clean.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/run.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/spawn.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/lib/spawn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/LICENSE" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/lib/nopt.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/lib/nopt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/package.json" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/nopt/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/package.json" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/q.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/q/q.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/package.json" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/shell.js" afterPath="$PROJECT_DIR$/platforms/ios/cordova/node_modules/shelljs/shell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/run" afterPath="$PROJECT_DIR$/platforms/ios/cordova/run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/run.bat" afterPath="$PROJECT_DIR$/platforms/ios/cordova/run.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/version" afterPath="$PROJECT_DIR$/platforms/ios/cordova/version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/tab-AddCohort.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/templates/tabs.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/templates/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/services.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-console/www/console-via-logger.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-console/www/console-via-logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-console/www/logger.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-console/www/logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-device/www/device.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-device/www/device.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/cohort-detail.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/cohort-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/filters/ageFilter.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/filters/ageFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/filters/cityFilter.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/filters/cityFilter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/tab-AddCohort.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tab-CohortsList.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/tab-CohortsList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/templates/tabs.html" afterPath="$PROJECT_DIR$/platforms/ios/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/platforms.json" afterPath="$PROJECT_DIR$/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/cohort-detail.html" afterPath="$PROJECT_DIR$/www/templates/cohort-detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" afterPath="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
     </list>
@@ -418,60 +35,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="309" column="50" selection-start-line="309" selection-start-column="50" selection-end-line="309" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="85" column="116" selection-start-line="85" selection-start-column="116" selection-end-line="85" selection-end-column="116" />
               <folding>
+                <element signature="e#339#2908#0" expanded="false" />
                 <element signature="e#401#545#0" expanded="false" />
                 <element signature="e#1484#1613#0" expanded="false" />
-                <element signature="e#3077#3117#0" expanded="false" />
-                <element signature="e#3297#3463#0" expanded="false" />
-                <element signature="e#3497#3667#0" expanded="false" />
-                <element signature="e#3824#4113#0" expanded="false" />
-                <element signature="e#3884#4096#0" expanded="false" />
-                <element signature="e#4159#4893#0" expanded="false" />
-                <element signature="e#4939#5069#0" expanded="false" />
-                <element signature="e#5116#5427#0" expanded="false" />
-                <element signature="e#5702#5906#0" expanded="false" />
-                <element signature="e#5956#6121#0" expanded="false" />
-                <element signature="e#6170#6959#0" expanded="false" />
-                <element signature="e#7010#7362#0" expanded="false" />
-                <element signature="e#7636#7878#0" expanded="false" />
-                <element signature="e#7925#8223#0" expanded="false" />
-                <element signature="e#8270#8880#0" expanded="false" />
-                <element signature="e#8369#8603#0" expanded="false" />
-                <element signature="e#8928#9480#0" expanded="false" />
-                <element signature="e#9754#10003#0" expanded="false" />
-                <element signature="e#10053#10360#0" expanded="false" />
-                <element signature="e#10410#11054#0" expanded="false" />
-                <element signature="e#11105#11673#0" expanded="false" />
-                <element signature="e#11998#12105#0" expanded="false" />
-                <element signature="e#12207#12289#0" expanded="false" />
-                <marker date="1459714502000" expanded="true" signature="2219:2436" placeholder="..." />
-                <marker date="1459714502000" expanded="true" signature="2219:2447" placeholder="..." />
-                <marker date="1459714502000" expanded="true" signature="2219:2612" placeholder="..." />
+                <element signature="e#3096#3136#0" expanded="false" />
+                <element signature="e#3316#3482#0" expanded="false" />
+                <element signature="e#3516#3686#0" expanded="false" />
+                <element signature="e#3843#4132#0" expanded="false" />
+                <element signature="e#3903#4115#0" expanded="false" />
+                <element signature="e#4178#4912#0" expanded="false" />
+                <element signature="e#4958#5088#0" expanded="false" />
+                <element signature="e#5135#5446#0" expanded="false" />
+                <element signature="e#5721#5925#0" expanded="false" />
+                <element signature="e#5975#6140#0" expanded="false" />
+                <element signature="e#6189#6978#0" expanded="false" />
+                <element signature="e#7029#7381#0" expanded="false" />
+                <element signature="e#7655#7897#0" expanded="false" />
+                <element signature="e#7944#8242#0" expanded="false" />
+                <element signature="e#8289#8899#0" expanded="false" />
+                <element signature="e#8388#8622#0" expanded="false" />
+                <element signature="e#8947#9499#0" expanded="false" />
+                <element signature="e#9773#10022#0" expanded="false" />
+                <element signature="e#10072#10379#0" expanded="false" />
+                <element signature="e#10429#11073#0" expanded="false" />
+                <element signature="e#11124#11692#0" expanded="false" />
+                <element signature="e#12017#12124#0" expanded="false" />
+                <element signature="e#12226#12308#0" expanded="false" />
+                <marker date="1459717703000" expanded="true" signature="2219:2436" placeholder="..." />
+                <marker date="1459717703000" expanded="true" signature="2219:2447" placeholder="..." />
+                <marker date="1459717703000" expanded="true" signature="2219:2612" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cityFilter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/filters/cityFilter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -497,21 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab-CohortsList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tab-CohortsList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tab-AddCohort.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
+            <state relative-caret-position="132">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -578,8 +176,9 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/templates/cohort-detail.html" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/tab-AddCohort.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -589,7 +188,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-11" />
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -732,6 +332,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabbedCohort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabbedCohort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -826,18 +440,18 @@
       <workItem from="1459448079223" duration="2000" />
       <workItem from="1459448084450" duration="122000" />
       <workItem from="1459448228123" duration="6928000" />
-      <workItem from="1459701422091" duration="7283000" />
+      <workItem from="1459701422091" duration="8697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24101000" />
+    <option name="totallyTimeSpent" value="25515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="-11" y="24" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16420014" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16420014" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -898,34 +512,35 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#339#2908#0" expanded="false" />
             <element signature="e#401#545#0" expanded="false" />
             <element signature="e#1484#1613#0" expanded="false" />
-            <element signature="e#3077#3117#0" expanded="false" />
-            <element signature="e#3297#3463#0" expanded="false" />
-            <element signature="e#3497#3667#0" expanded="false" />
-            <element signature="e#3824#4113#0" expanded="false" />
-            <element signature="e#3884#4096#0" expanded="false" />
-            <element signature="e#4159#4893#0" expanded="false" />
-            <element signature="e#4939#5069#0" expanded="false" />
-            <element signature="e#5116#5427#0" expanded="false" />
-            <element signature="e#5702#5906#0" expanded="false" />
-            <element signature="e#5956#6121#0" expanded="false" />
-            <element signature="e#6170#6959#0" expanded="false" />
-            <element signature="e#7010#7362#0" expanded="false" />
-            <element signature="e#7636#7878#0" expanded="false" />
-            <element signature="e#7925#8223#0" expanded="false" />
-            <element signature="e#8270#8880#0" expanded="false" />
-            <element signature="e#8369#8603#0" expanded="false" />
-            <element signature="e#8928#9480#0" expanded="false" />
-            <element signature="e#9754#10003#0" expanded="false" />
-            <element signature="e#10053#10360#0" expanded="false" />
-            <element signature="e#10410#11054#0" expanded="false" />
-            <element signature="e#11105#11673#0" expanded="false" />
-            <element signature="e#11998#12105#0" expanded="false" />
-            <element signature="e#12207#12289#0" expanded="false" />
-            <marker date="1459714502000" expanded="true" signature="2219:2436" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2447" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2612" placeholder="..." />
+            <element signature="e#3096#3136#0" expanded="false" />
+            <element signature="e#3316#3482#0" expanded="false" />
+            <element signature="e#3516#3686#0" expanded="false" />
+            <element signature="e#3843#4132#0" expanded="false" />
+            <element signature="e#3903#4115#0" expanded="false" />
+            <element signature="e#4178#4912#0" expanded="false" />
+            <element signature="e#4958#5088#0" expanded="false" />
+            <element signature="e#5135#5446#0" expanded="false" />
+            <element signature="e#5721#5925#0" expanded="false" />
+            <element signature="e#5975#6140#0" expanded="false" />
+            <element signature="e#6189#6978#0" expanded="false" />
+            <element signature="e#7029#7381#0" expanded="false" />
+            <element signature="e#7655#7897#0" expanded="false" />
+            <element signature="e#7944#8242#0" expanded="false" />
+            <element signature="e#8289#8899#0" expanded="false" />
+            <element signature="e#8388#8622#0" expanded="false" />
+            <element signature="e#8947#9499#0" expanded="false" />
+            <element signature="e#9773#10022#0" expanded="false" />
+            <element signature="e#10072#10379#0" expanded="false" />
+            <element signature="e#10429#11073#0" expanded="false" />
+            <element signature="e#11124#11692#0" expanded="false" />
+            <element signature="e#12017#12124#0" expanded="false" />
+            <element signature="e#12226#12308#0" expanded="false" />
+            <marker date="1459717703000" expanded="true" signature="2219:2436" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2447" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2612" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1029,34 +644,35 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#339#2908#0" expanded="false" />
             <element signature="e#401#545#0" expanded="false" />
             <element signature="e#1484#1613#0" expanded="false" />
-            <element signature="e#3077#3117#0" expanded="false" />
-            <element signature="e#3297#3463#0" expanded="false" />
-            <element signature="e#3497#3667#0" expanded="false" />
-            <element signature="e#3824#4113#0" expanded="false" />
-            <element signature="e#3884#4096#0" expanded="false" />
-            <element signature="e#4159#4893#0" expanded="false" />
-            <element signature="e#4939#5069#0" expanded="false" />
-            <element signature="e#5116#5427#0" expanded="false" />
-            <element signature="e#5702#5906#0" expanded="false" />
-            <element signature="e#5956#6121#0" expanded="false" />
-            <element signature="e#6170#6959#0" expanded="false" />
-            <element signature="e#7010#7362#0" expanded="false" />
-            <element signature="e#7636#7878#0" expanded="false" />
-            <element signature="e#7925#8223#0" expanded="false" />
-            <element signature="e#8270#8880#0" expanded="false" />
-            <element signature="e#8369#8603#0" expanded="false" />
-            <element signature="e#8928#9480#0" expanded="false" />
-            <element signature="e#9754#10003#0" expanded="false" />
-            <element signature="e#10053#10360#0" expanded="false" />
-            <element signature="e#10410#11054#0" expanded="false" />
-            <element signature="e#11105#11673#0" expanded="false" />
-            <element signature="e#11998#12105#0" expanded="false" />
-            <element signature="e#12207#12289#0" expanded="false" />
-            <marker date="1459714502000" expanded="true" signature="2219:2436" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2447" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2612" placeholder="..." />
+            <element signature="e#3096#3136#0" expanded="false" />
+            <element signature="e#3316#3482#0" expanded="false" />
+            <element signature="e#3516#3686#0" expanded="false" />
+            <element signature="e#3843#4132#0" expanded="false" />
+            <element signature="e#3903#4115#0" expanded="false" />
+            <element signature="e#4178#4912#0" expanded="false" />
+            <element signature="e#4958#5088#0" expanded="false" />
+            <element signature="e#5135#5446#0" expanded="false" />
+            <element signature="e#5721#5925#0" expanded="false" />
+            <element signature="e#5975#6140#0" expanded="false" />
+            <element signature="e#6189#6978#0" expanded="false" />
+            <element signature="e#7029#7381#0" expanded="false" />
+            <element signature="e#7655#7897#0" expanded="false" />
+            <element signature="e#7944#8242#0" expanded="false" />
+            <element signature="e#8289#8899#0" expanded="false" />
+            <element signature="e#8388#8622#0" expanded="false" />
+            <element signature="e#8947#9499#0" expanded="false" />
+            <element signature="e#9773#10022#0" expanded="false" />
+            <element signature="e#10072#10379#0" expanded="false" />
+            <element signature="e#10429#11073#0" expanded="false" />
+            <element signature="e#11124#11692#0" expanded="false" />
+            <element signature="e#12017#12124#0" expanded="false" />
+            <element signature="e#12226#12308#0" expanded="false" />
+            <marker date="1459717703000" expanded="true" signature="2219:2436" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2447" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2612" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1066,34 +682,35 @@
         <state relative-caret-position="435">
           <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
+            <element signature="e#339#2908#0" expanded="false" />
             <element signature="e#401#545#0" expanded="false" />
             <element signature="e#1484#1613#0" expanded="false" />
-            <element signature="e#3077#3117#0" expanded="false" />
-            <element signature="e#3297#3463#0" expanded="false" />
-            <element signature="e#3497#3667#0" expanded="false" />
-            <element signature="e#3824#4113#0" expanded="false" />
-            <element signature="e#3884#4096#0" expanded="false" />
-            <element signature="e#4159#4893#0" expanded="false" />
-            <element signature="e#4939#5069#0" expanded="false" />
-            <element signature="e#5116#5427#0" expanded="false" />
-            <element signature="e#5702#5906#0" expanded="false" />
-            <element signature="e#5956#6121#0" expanded="false" />
-            <element signature="e#6170#6959#0" expanded="false" />
-            <element signature="e#7010#7362#0" expanded="false" />
-            <element signature="e#7636#7878#0" expanded="false" />
-            <element signature="e#7925#8223#0" expanded="false" />
-            <element signature="e#8270#8880#0" expanded="false" />
-            <element signature="e#8369#8603#0" expanded="false" />
-            <element signature="e#8928#9480#0" expanded="false" />
-            <element signature="e#9754#10003#0" expanded="false" />
-            <element signature="e#10053#10360#0" expanded="false" />
-            <element signature="e#10410#11054#0" expanded="false" />
-            <element signature="e#11105#11673#0" expanded="false" />
-            <element signature="e#11998#12105#0" expanded="false" />
-            <element signature="e#12207#12289#0" expanded="false" />
-            <marker date="1459714502000" expanded="true" signature="2219:2436" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2447" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2612" placeholder="..." />
+            <element signature="e#3096#3136#0" expanded="false" />
+            <element signature="e#3316#3482#0" expanded="false" />
+            <element signature="e#3516#3686#0" expanded="false" />
+            <element signature="e#3843#4132#0" expanded="false" />
+            <element signature="e#3903#4115#0" expanded="false" />
+            <element signature="e#4178#4912#0" expanded="false" />
+            <element signature="e#4958#5088#0" expanded="false" />
+            <element signature="e#5135#5446#0" expanded="false" />
+            <element signature="e#5721#5925#0" expanded="false" />
+            <element signature="e#5975#6140#0" expanded="false" />
+            <element signature="e#6189#6978#0" expanded="false" />
+            <element signature="e#7029#7381#0" expanded="false" />
+            <element signature="e#7655#7897#0" expanded="false" />
+            <element signature="e#7944#8242#0" expanded="false" />
+            <element signature="e#8289#8899#0" expanded="false" />
+            <element signature="e#8388#8622#0" expanded="false" />
+            <element signature="e#8947#9499#0" expanded="false" />
+            <element signature="e#9773#10022#0" expanded="false" />
+            <element signature="e#10072#10379#0" expanded="false" />
+            <element signature="e#10429#11073#0" expanded="false" />
+            <element signature="e#11124#11692#0" expanded="false" />
+            <element signature="e#12017#12124#0" expanded="false" />
+            <element signature="e#12226#12308#0" expanded="false" />
+            <marker date="1459717703000" expanded="true" signature="2219:2436" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2447" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2612" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1270,14 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/cohort-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -1286,48 +895,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-AddCohort.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="309" column="50" selection-start-line="309" selection-start-column="50" selection-end-line="309" selection-end-column="50" />
-          <folding>
-            <element signature="e#401#545#0" expanded="false" />
-            <element signature="e#1484#1613#0" expanded="false" />
-            <element signature="e#3077#3117#0" expanded="false" />
-            <element signature="e#3297#3463#0" expanded="false" />
-            <element signature="e#3497#3667#0" expanded="false" />
-            <element signature="e#3824#4113#0" expanded="false" />
-            <element signature="e#3884#4096#0" expanded="false" />
-            <element signature="e#4159#4893#0" expanded="false" />
-            <element signature="e#4939#5069#0" expanded="false" />
-            <element signature="e#5116#5427#0" expanded="false" />
-            <element signature="e#5702#5906#0" expanded="false" />
-            <element signature="e#5956#6121#0" expanded="false" />
-            <element signature="e#6170#6959#0" expanded="false" />
-            <element signature="e#7010#7362#0" expanded="false" />
-            <element signature="e#7636#7878#0" expanded="false" />
-            <element signature="e#7925#8223#0" expanded="false" />
-            <element signature="e#8270#8880#0" expanded="false" />
-            <element signature="e#8369#8603#0" expanded="false" />
-            <element signature="e#8928#9480#0" expanded="false" />
-            <element signature="e#9754#10003#0" expanded="false" />
-            <element signature="e#10053#10360#0" expanded="false" />
-            <element signature="e#10410#11054#0" expanded="false" />
-            <element signature="e#11105#11673#0" expanded="false" />
-            <element signature="e#11998#12105#0" expanded="false" />
-            <element signature="e#12207#12289#0" expanded="false" />
-            <marker date="1459714502000" expanded="true" signature="2219:2436" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2447" placeholder="..." />
-            <marker date="1459714502000" expanded="true" signature="2219:2612" placeholder="..." />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-x-toast/screenshots/screenshot-android-toast.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-x-toast/screenshots/screenshot-ios-toast.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="85" column="116" selection-start-line="85" selection-start-column="116" selection-end-line="85" selection-end-column="116" />
+          <folding>
+            <element signature="e#339#2908#0" expanded="false" />
+            <element signature="e#401#545#0" expanded="false" />
+            <element signature="e#1484#1613#0" expanded="false" />
+            <element signature="e#3096#3136#0" expanded="false" />
+            <element signature="e#3316#3482#0" expanded="false" />
+            <element signature="e#3516#3686#0" expanded="false" />
+            <element signature="e#3843#4132#0" expanded="false" />
+            <element signature="e#3903#4115#0" expanded="false" />
+            <element signature="e#4178#4912#0" expanded="false" />
+            <element signature="e#4958#5088#0" expanded="false" />
+            <element signature="e#5135#5446#0" expanded="false" />
+            <element signature="e#5721#5925#0" expanded="false" />
+            <element signature="e#5975#6140#0" expanded="false" />
+            <element signature="e#6189#6978#0" expanded="false" />
+            <element signature="e#7029#7381#0" expanded="false" />
+            <element signature="e#7655#7897#0" expanded="false" />
+            <element signature="e#7944#8242#0" expanded="false" />
+            <element signature="e#8289#8899#0" expanded="false" />
+            <element signature="e#8388#8622#0" expanded="false" />
+            <element signature="e#8947#9499#0" expanded="false" />
+            <element signature="e#9773#10022#0" expanded="false" />
+            <element signature="e#10072#10379#0" expanded="false" />
+            <element signature="e#10429#11073#0" expanded="false" />
+            <element signature="e#11124#11692#0" expanded="false" />
+            <element signature="e#12017#12124#0" expanded="false" />
+            <element signature="e#12226#12308#0" expanded="false" />
+            <marker date="1459717703000" expanded="true" signature="2219:2436" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2447" placeholder="..." />
+            <marker date="1459717703000" expanded="true" signature="2219:2612" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

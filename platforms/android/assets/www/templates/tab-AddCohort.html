@@ -3,7 +3,7 @@
         <div class="card ">
             <div class="title">
                 <div class="item item-text item-text-wrap">
-                    <input type="text" required placeholder="Enter Cohort Name" ng-model="cohortName.name">
+                    <input type="text" id="cohortNameField" required placeholder="Enter Cohort Name" ng-model="cohortName.name">
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
         </ion-list>
         </div>
     </ion-content>
-    <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit(1)" href="#/tab/CohortsList">Create Cohort
+    <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit()" href="#/tab/CohortsList">Create Cohort
         <!--<div class=" button button-calm button-block" ng-click="createCohortSubmit()">Create Cohort</div>-->
     </ion-footer-bar>
 </ion-view>

@@ -83,7 +83,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
     })
 
-    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, cohortFactory) {
+    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate,$ionicTabsDelegate, cohortFactory) {
 
             $scope.gender = '';
             $scope.cohortName = {
@@ -334,9 +334,9 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $scope.onGenderClear();
                     $scope.onAgeClear();
                     $scope.onCityClear();
-
+                    document.getElementById("cohortNameField").innerHTML = "";
                     console.log("Data Posted" + angular.toJson(data));
-                    //$cordovaToast.showLongBottom("Cohort Created");
+                    $ionicTabsDelegate.$getByHandle('tab1').select(0);
                 });
             };
         }
