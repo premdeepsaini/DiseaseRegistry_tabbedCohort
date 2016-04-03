@@ -1,0 +1,25 @@
+<ion-view class="cityPopup" ng-controller="AddCohortCtrl">
+    <ion-header-bar title="Select Diseases" class="padding-bottom">
+        <h2 class="selectDiseaseTitle">Select Diseases</h2>
+    </ion-header-bar>
+    <div class="citySearchHeader bar bar-subheader item-input-inset bar-light">
+        <label class="item-input-wrapper">
+            <i class="icon ion-search placeholder-icon"></i>
+            <input type="search" ng-model="diseaseQuery" placeholder="Type City Name">
+        </label>
+    </div>
+    <ion-content class="has-header has-subheader has-footer">
+        <ion-list class="card">
+            <ion-checkbox class=" diseaseFontCSS item-text-wrap"  ng-repeat="disease in inputDiseases | filter:diseaseQuery | orderBy:'city'" ng-model="disease.checked">
+                {{disease.disease}}
+            </ion-checkbox>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="cityFooterCSS">
+        <div class="row">
+            <button class="button button-assertive button-block" ng-click="DiseaseCancel()">Cancel</button>
+            <div class="padding"></div>
+            <button class="button button-positive button-block" ng-click="DiseaseSubmit()">Submit</button>
+        </div>
+    </ion-footer-bar>
+</ion-view>

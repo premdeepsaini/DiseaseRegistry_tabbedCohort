@@ -31,6 +31,12 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             cohortFactory.getPatientsList($rootScope.cohort_id).then(function (response) {
                 $rootScope.patientsList = response.data.Patients;
                 $rootScope.filtersList = response.data.Filters;
+                if($rootScope.filtersList.City.length==0){
+                    $rootScope.filtersList.City.push("All Cities");
+                }
+                if($rootScope.filtersList.Diseases.length==0){
+                    $rootScope.filtersList.Diseases.push("None Selected");
+                }
                 console.log($rootScope.filtersList);
 
             });
@@ -54,6 +60,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
         $scope.patientDetailsPopup = function () {
             $scope.patientDetailsPopupDialog = $ionicPopup.alert({
+                title:'Patient Details',
                 template: '<div class="padding-left" ng-repeat="patient in patientDetails">'
                 + '<h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>'
                 + '<h4>Gender: {{patient.PatientGender}}</h4>'
@@ -76,7 +83,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
     })
 
-    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, cohortFactory) {
+    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate,$ionicTabsDelegate, cohortFactory) {
 
             $scope.gender = '';
             $scope.cohortName = {
@@ -291,7 +298,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 $ionicListDelegate.$getByHandle('clearButton').closeOptionButtons();
             }
 //////////////////////////////////Disease Filter Ends///////////////////////////////////////////////////////////
-            $scope.createCohortSubmit = function () {
+            $scope.createCohortSubmit = function (index) {
 
                 console.log($scope.cohortName);
                 data.CohortName = $scope.cohortName.name;
@@ -314,7 +321,12 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 console.log(JSONObj);
                 console.log("posting Data");
                 cohortFactory.postFilters(JSONObj).success(function (data) {
+                    $scope.onDiseaseClear();
+                    $scope.onGenderClear();
+                    $scope.onAgeClear();
+                    $scope.onCityClear();
                     console.log("Data Posted" + angular.toJson(data));
+                    $ionicTabsDelegate.select(index);
                 });
             };
         }

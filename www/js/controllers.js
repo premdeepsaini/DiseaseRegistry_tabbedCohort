@@ -31,6 +31,12 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             cohortFactory.getPatientsList($rootScope.cohort_id).then(function (response) {
                 $rootScope.patientsList = response.data.Patients;
                 $rootScope.filtersList = response.data.Filters;
+                if($rootScope.filtersList.City.length==0){
+                    $rootScope.filtersList.City.push("All Cities");
+                }
+                if($rootScope.filtersList.Diseases.length==0){
+                    $rootScope.filtersList.Diseases.push("None Selected");
+                }
                 console.log($rootScope.filtersList);
 
             });
@@ -54,6 +60,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
         $scope.patientDetailsPopup = function () {
             $scope.patientDetailsPopupDialog = $ionicPopup.alert({
+                title:'Patient Details',
                 template: '<div class="padding-left" ng-repeat="patient in patientDetails">'
                 + '<h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>'
                 + '<h4>Gender: {{patient.PatientGender}}</h4>'
@@ -238,6 +245,11 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.onCityClear = function () {
                 data.City = [];
                 console.log(data.City);
+                for (i = 0; i < $scope.inputCities.length; i++) {
+                    if ($scope.inputCities[i].checked == true) {
+                        $scope.inputCities[i].checked = false;
+                    }
+                }
 
                 document.getElementById("cityText").style.color = "Black";
                 document.getElementById("citySelect").innerHTML = "";
@@ -285,7 +297,11 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.onDiseaseClear = function () {
                 data.Disease= [];
                 console.log(data.Disease);
-
+                for (i = 0; i < $scope.inputDiseases.length; i++) {
+                    if ($scope.inputDiseases[i].checked == true) {
+                        $scope.inputDiseases[i].checked = false;
+                    }
+                }
                 document.getElementById("diseaseText").style.color = "Black";
                 document.getElementById("diseaseSelect").innerHTML = "";
                 $ionicListDelegate.$getByHandle('clearButton').closeOptionButtons();
@@ -314,7 +330,13 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 console.log(JSONObj);
                 console.log("posting Data");
                 cohortFactory.postFilters(JSONObj).success(function (data) {
+                    $scope.onDiseaseClear();
+                    $scope.onGenderClear();
+                    $scope.onAgeClear();
+                    $scope.onCityClear();
+
                     console.log("Data Posted" + angular.toJson(data));
+                    //$cordovaToast.showLongBottom("Cohort Created");
                 });
             };
         }

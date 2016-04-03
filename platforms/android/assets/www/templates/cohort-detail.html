@@ -7,19 +7,29 @@
 <ion-view view-title="Cohort:{{cohort_name}}">
     <ion-content>
 
-        <div class="card item-placeholder">
+        <div class="card item-placeholder ">
             <ion-item>
-                <h4>{{filtersList.MinAge}}</h4>
-                <h4>{{filtersList.MaxAge}}</h4>
                 <div class="row">
-                    <h4 ng-repeat="gender in filtersList.PatientGender">{{gender}}&nbsp&nbsp</h4>
+                    <h4>Minimum Age: {{filtersList.MinAge}}</h4><br>
                 </div>
                 <div class="row">
-                    <h4 ng-repeat="city in filtersList.City">{{city}}&nbsp&nbsp</h4>
+                    <h4>Maximum Age: {{filtersList.MaxAge}}</h4><br>
+                </div>
+                <div class="row">
+                   <h4>Gender: </h4> <h4 ng-repeat="gender in filtersList.PatientGender">{{gender}}&nbsp&nbsp</h4><br>
+                </div>
+                <div class="row scroll-y item-text-wrap">
+                    <h4>Cities: </h4><h4 ng-repeat="city in filtersList.City">{{city}}&nbsp&nbsp</h4>
+                </div>
+                <div class="row scroll-y item-text-wrap">
+                    <h4>Diseases: </h4><h4 ng-repeat="disease in filtersList.Diseases">{{disease}}&nbsp&nbsp</h4><br>
                 </div>
             </ion-item>
         </div>
 
+        <h2 class="placeholder-icon">
+            <center>List of Patients</center>
+        </h2>
         <ion-list class="card ">
             <ion-item ng-repeat="patient in patientsList" ng-click="getPatientDetails(patient.PatientID)">
 

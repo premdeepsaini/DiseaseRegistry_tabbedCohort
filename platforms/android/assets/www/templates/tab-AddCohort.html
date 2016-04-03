@@ -8,7 +8,8 @@
             </div>
         </div>
 
-        <h2 class="placeholder-icon" style="padding-left: 35%">Filters</h2>
+        <h2 class="placeholder-icon"><center>Filters</center></h2>
+        <div class="padding card">
         <ion-list delegate-handle="clearButton">
             <ion-item ng-click="agePopup()"><span id="ageText" class="padding-right">Age</span>
                 <span id="ageRange" class="item-placeholder padding-left"></span>
@@ -29,8 +30,9 @@
                 <ion-option-button class="button button-assertive" ng-click="onDiseaseClear()">Clear</ion-option-button>
             </ion-item>
         </ion-list>
+        </div>
     </ion-content>
-    <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit()">Create Cohort
+    <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit(1)" href="#/tab/CohortsList">Create Cohort
         <!--<div class=" button button-calm button-block" ng-click="createCohortSubmit()">Create Cohort</div>-->
     </ion-footer-bar>
 </ion-view>
