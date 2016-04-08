@@ -336,7 +336,6 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $scope.onCityClear();
                     document.getElementById("cohortNameField").innerHTML = "";
                     console.log("Data Posted" + angular.toJson(data));
-                    //$cordovaToast.showLongBottom("Cohort Created");
                     $ionicTabsDelegate.$getByHandle('tab1').select(0);
                 });
             };

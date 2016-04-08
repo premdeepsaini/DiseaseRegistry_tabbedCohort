@@ -7,7 +7,7 @@ var data = {
     Diseases: []
 };
 
-angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect'])
+angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect','chart.js'])
 
     .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
 
@@ -61,12 +61,12 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         $scope.patientDetailsPopup = function () {
             $scope.patientDetailsPopupDialog = $ionicPopup.alert({
                 title:'Patient Details',
-                template: '<div class="padding-left" ng-repeat="patient in patientDetails">'
-                + '<h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>'
-                + '<h4>Gender: {{patient.PatientGender}}</h4>'
-                + '<h4>Date-of-Birth: {{patient.PatientDateOfBirth | date:"yyyy-MM-dd"}}</h4>'
-                + '<h4>City: {{patient.City}}</h4>'
-                + '<h4>Marital Status: {{patient.PatientMaritalStatus}}</h4>'
+                template: '<div class="padding-left" >'
+                + '<h4>Name: {{patientDetails.FirstName}} {{patientDetails.LastName}}</h4>'
+                + '<h4>Gender: {{patientDetails.PatientGender}}</h4>'
+                + '<h4>Date-of-Birth: {{patientDetails.PatientDateOfBirth | date:"yyyy-MM-dd"}}</h4>'
+                + '<h4>City: {{patientDetails.City}}</h4>'
+                + '<h4>Marital Status: {{patientDetails.PatientMaritalStatus}}</h4>'
                 + '</div>',
                 okText: 'Close',
                 okType: 'button-assertive'
@@ -340,4 +340,17 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 });
             };
         }
-    );
+    )
+    .controller('GraphCtrl',function($scope){
+
+        $scope.graph = {};                        // Empty graph object to hold the details for this graph
+        $scope.graph.data = [                     // Add bar data, this will set your bars height in the graph
+            //Awake
+            [16, 15, 20, 12, 16, 12, 8],
+            //Asleep
+            [8, 9, 4, 12, 8, 12, 14]
+        ];
+        $scope.graph.labels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];    // Add labels for the X-axis
+        $scope.graph.series = ['Awake', 'Asleep'];  // Add information for the hover/touch effect
+
+    });

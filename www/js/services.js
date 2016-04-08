@@ -1,7 +1,7 @@
 angular.module('DiseaseRegistry.services', [])
     .factory('cohortFactory', function ($http) {
 
-        var url = "http://diseaseregistry2-60407.onmodulus.net/api/";
+        var url = "http://diseaseregistry-61406.onmodulus.net/api/";
 
         //var url= "http://192.168.10.202/api/Cohorts";
         var cities = [{"city": "Mumbai", "checked": false},
