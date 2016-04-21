@@ -31,6 +31,44 @@
                         {
                             "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"webView\" value=\"org.crosswalk.engine.XWalkWebViewEngine\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"17+\" name=\"xwalkVersion\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"--disable-pull-to-refresh-effect\" name=\"xwalkCommandLine\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"embedded\" name=\"xwalkMode\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference default=\"true\" name=\"xwalkMultipleApk\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ProgressIndicator\"><param name=\"android-package\" value=\"org.apache.cordova.progressindicator.ProgressIndicator\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -57,6 +95,12 @@
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         },
         "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
+        },
+        "org.pbernasconi.progressindicator": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         }
     },
@@ -106,6 +150,13 @@
         {
             "file": "plugins/cordova-plugin-x-toast/test/tests.js",
             "id": "cordova-plugin-x-toast.tests"
+        },
+        {
+            "file": "plugins/org.pbernasconi.progressindicator/www/progressIndicator.js",
+            "id": "org.pbernasconi.progressindicator.ProgressIndicator",
+            "clobbers": [
+                "ProgressIndicator"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -115,6 +166,8 @@
         "cordova-plugin-statusbar": "2.1.1",
         "cordova-plugin-whitelist": "1.2.1",
         "ionic-plugin-keyboard": "1.0.8",
-        "cordova-plugin-x-toast": "2.5.0"
+        "cordova-plugin-x-toast": "2.5.0",
+        "cordova-plugin-crosswalk-webview": "1.6.1",
+        "org.pbernasconi.progressindicator": "1.1.0"
     }
 }

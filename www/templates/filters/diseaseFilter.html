@@ -10,7 +10,7 @@
     </div>
     <ion-content class="has-header has-subheader has-footer">
         <ion-list class="card">
-            <ion-checkbox class=" diseaseFontCSS item-text-wrap"  ng-repeat="disease in inputDiseases | filter:diseaseQuery | orderBy:'city'" ng-model="disease.checked">
+            <ion-checkbox class=" diseaseFontCSS item-text-wrap"  collection-repeat="disease in inputDiseases | filter:diseaseQuery | orderBy:'city'" ng-model="disease.checked">
                 {{disease.disease}}
             </ion-checkbox>
         </ion-list>

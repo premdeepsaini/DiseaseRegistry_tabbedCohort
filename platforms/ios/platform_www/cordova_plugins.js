@@ -61,6 +61,14 @@ module.exports = [
         "file": "plugins/cordova-plugin-x-toast/test/tests.js",
         "id": "cordova-plugin-x-toast.tests",
         "pluginId": "cordova-plugin-x-toast"
+    },
+    {
+        "file": "plugins/org.pbernasconi.progressindicator/www/progressIndicator.js",
+        "id": "org.pbernasconi.progressindicator.ProgressIndicator",
+        "pluginId": "org.pbernasconi.progressindicator",
+        "clobbers": [
+            "ProgressIndicator"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -72,7 +80,9 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.1",
     "cordova-plugin-whitelist": "1.2.1",
     "ionic-plugin-keyboard": "1.0.8",
-    "cordova-plugin-x-toast": "2.5.0"
+    "cordova-plugin-x-toast": "2.5.0",
+    "cordova-plugin-crosswalk-webview": "1.6.1",
+    "org.pbernasconi.progressindicator": "1.1.0"
 }
 // BOTTOM OF METADATA
 });

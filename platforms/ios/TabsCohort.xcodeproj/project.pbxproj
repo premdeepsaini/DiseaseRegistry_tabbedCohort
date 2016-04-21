@@ -25,6 +25,9 @@
 		4006E7EA8AAB499E81CE0C59 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4968ECAB7012475F9BAA8673 /* Toast+UIView.m */; };
 		D946CB09F56B498C9B56BADD /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8909EDE168A049AF8423DFBF /* Toast.m */; };
 		CC5B2ABFD3F54CAE8F474020 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2436839ABBC7452291E86661 /* QuartzCore.framework */; };
+		8A9D5F3F3E524765ADD1AA28 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB94507B22D443086800781 /* MBProgressHUD.m */; };
+		3C0F6DA91A204340B272A10D /* ProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A792CD5ED42AF93427090 /* ProgressIndicator.m */; };
+		5380512E21A84F4D9B522F9F /* ProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 340958BDFA66402E843FCCBF /* ProgressIndicator.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,11 @@
 		71064BFE6F22413E9BE15257 /* Toast+UIView.h */ = {isa = PBXFileReference; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		672D9CB8C509431DAE62283A /* Toast.h */ = {isa = PBXFileReference; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		2436839ABBC7452291E86661 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BDB94507B22D443086800781 /* MBProgressHUD.m */ = {isa = PBXFileReference; name = "MBProgressHUD.m"; path = "org.pbernasconi.progressindicator/MBProgressHUD.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3E4A792CD5ED42AF93427090 /* ProgressIndicator.m */ = {isa = PBXFileReference; name = "ProgressIndicator.m"; path = "org.pbernasconi.progressindicator/ProgressIndicator.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D555B92B4996424D8CE74976 /* MBProgressHUD.h */ = {isa = PBXFileReference; name = "MBProgressHUD.h"; path = "org.pbernasconi.progressindicator/MBProgressHUD.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C5524D9DC87A4177A6F42731 /* ProgressIndicator.h */ = {isa = PBXFileReference; name = "ProgressIndicator.h"; path = "org.pbernasconi.progressindicator/ProgressIndicator.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		340958BDFA66402E843FCCBF /* ProgressIndicator.bundle */ = {isa = PBXFileReference; name = "ProgressIndicator.bundle"; path = "ProgressIndicator.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +161,7 @@
 				0207DA571B56EA530066E2B4 /* Images.xcassets */,
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* TabsCohort-Info.plist */,
+				340958BDFA66402E843FCCBF /* ProgressIndicator.bundle */,
 			);
 			name = Resources;
 			path = "TabsCohort/Resources";
@@ -205,6 +214,10 @@
 				8909EDE168A049AF8423DFBF /* Toast.m */,
 				71064BFE6F22413E9BE15257 /* Toast+UIView.h */,
 				672D9CB8C509431DAE62283A /* Toast.h */,
+				BDB94507B22D443086800781 /* MBProgressHUD.m */,
+				3E4A792CD5ED42AF93427090 /* ProgressIndicator.m */,
+				D555B92B4996424D8CE74976 /* MBProgressHUD.h */,
+				C5524D9DC87A4177A6F42731 /* ProgressIndicator.h */,
 			);
 			name = Plugins;
 			path = "TabsCohort/Plugins";
@@ -288,6 +301,7 @@
 				3047A5141AB8059700498E2A /* build.xcconfig in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */,
+				5380512E21A84F4D9B522F9F /* ProgressIndicator.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +342,8 @@
 				8C64911C41934126A71B245F /* UIWebViewExtension.m in Sources */,
 				4006E7EA8AAB499E81CE0C59 /* Toast+UIView.m in Sources */,
 				D946CB09F56B498C9B56BADD /* Toast.m in Sources */,
+				8A9D5F3F3E524765ADD1AA28 /* MBProgressHUD.m in Sources */,
+				3C0F6DA91A204340B272A10D /* ProgressIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

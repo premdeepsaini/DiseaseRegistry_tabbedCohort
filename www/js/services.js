@@ -11724,6 +11724,20 @@ angular.module('DiseaseRegistry.services', [])
             },
             getPatient:function(patientID){
                 return $http.get(url+"Patients?PatientID="+patientID);
+            },
+            
+            getGraph:function(diseaseJSON){
+
+                var temp;
+                $http.post(url+"Disease",diseaseJSON).then(function(response){
+
+                    return $http.post(url+"Graph",response.data);
+                    /*temp=response.data;
+                    console.log("Temp: "+angular.toJson(temp));
+*/
+                });
+
+
             }
         };
     });

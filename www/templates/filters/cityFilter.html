@@ -10,7 +10,7 @@
     </div>
     <ion-content class="has-header has-subheader has-footer">
         <ion-list class="card">
-            <ion-checkbox ng-repeat="city in inputCities | filter:cityQuery | orderBy:'city'" ng-model="city.checked">
+            <ion-checkbox collection-repeat="city in inputCities | filter:cityQuery | orderBy:'city'" ng-model="city.checked">
                 {{city.city}}
             </ion-checkbox>
         </ion-list>

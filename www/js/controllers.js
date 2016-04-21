@@ -61,12 +61,12 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         $scope.patientDetailsPopup = function () {
             $scope.patientDetailsPopupDialog = $ionicPopup.alert({
                 title:'Patient Details',
-                template: '<div class="padding-left" >'
-                + '<h4>Name: {{patientDetails.FirstName}} {{patientDetails.LastName}}</h4>'
-                + '<h4>Gender: {{patientDetails.PatientGender}}</h4>'
-                + '<h4>Date-of-Birth: {{patientDetails.PatientDateOfBirth | date:"yyyy-MM-dd"}}</h4>'
-                + '<h4>City: {{patientDetails.City}}</h4>'
-                + '<h4>Marital Status: {{patientDetails.PatientMaritalStatus}}</h4>'
+                template: '<div class="padding-left" ng-repeat="patient in patientDetails">'
+                + '<h4>Name: {{patient.FirstName}} {{patient.LastName}}</h4>'
+                + '<h4>Gender: {{patient.PatientGender}}</h4>'
+                + '<h4>Date-of-Birth: {{patient.PatientDateOfBirth | date:"yyyy-MM-dd"}}</h4>'
+                + '<h4>City: {{patient.City}}</h4>'
+                + '<h4>Marital Status: {{patient.PatientMaritalStatus}}</h4>'
                 + '</div>',
                 okText: 'Close',
                 okType: 'button-assertive'
@@ -339,18 +339,86 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $ionicTabsDelegate.$getByHandle('tab1').select(0);
                 });
             };
-        }
-    )
-    .controller('GraphCtrl',function($scope){
+        })
 
-        $scope.graph = {};                        // Empty graph object to hold the details for this graph
-        $scope.graph.data = [                     // Add bar data, this will set your bars height in the graph
-            //Awake
-            [16, 15, 20, 12, 16, 12, 8],
-            //Asleep
-            [8, 9, 4, 12, 8, 12, 14]
-        ];
-        $scope.graph.labels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];    // Add labels for the X-axis
-        $scope.graph.series = ['Awake', 'Asleep'];  // Add information for the hover/touch effect
+    .controller('GraphCtrl',function($scope,$http,$ionicLoading){
+
+
+        $scope.disease=[];
+        $scope.disease.name="";
+
+        var diseaseJSON={
+            "DiseaseName":"Diabetes"
+        };
+
+        $scope.graph = [];                        // Empty graph object to hold the details for this graph
+        // $scope.graph.data = [];
+        // $scope.graph.labels = [];
+        // $scope.graph.color = [];// Add labels for the X-axis
+        //$scope.graph.series = ['Patient Count'];  // Add information for the hover/touch effect
+
+        $scope.showLoading = function() {
+            $ionicLoading.show({
+                template: 'Loading...'
+            });
+        };
+        $scope.hideLoading = function(){
+            $ionicLoading.hide();
+        };
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+            for (var i = 0; i < 6; i++ ) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        $scope.getGraphClick=function(){
+
+            $scope.graph=[];
+            /*$scope.graph.data = [];
+            $scope.graph.labels = [];*/
+            if($scope.disease.name.length==0){
+                alert("Please Enter Disease Name!!!");
+                return;
+            }
+
+            diseaseJSON.DiseaseName=$scope.disease.name;
+            console.log(diseaseJSON.DiseaseName);
+
+            $http.post("http://diseaseregistry-61406.onmodulus.net/api/Disease",diseaseJSON).then(function(response){
+
+                $scope.showLoading();
+
+                $http.post("http://diseaseregistry-61406.onmodulus.net/api/Graph",response.data).then(function(response){
+
+                    if(response.data.length==0){
+                        alert("No Patients Found");
+                        return;
+                    }
+
+                    var temp1=(response.data);
+                    // var CityCount=[];
+                    temp1.forEach(function(obj){
+
+                        $scope.graph.push({value:obj.CityCount,label:obj._id.City, color:getRandomColor()});
+                        /*CityCount.push(obj.CityCount);
+                        $scope.graph.labels.push(obj._id.City);
+                        $scope.graph.color.push(getRandomColor());*/
+
+                    });
+                    // $scope.graph.data.push(CityCount);
+
+                    $scope.hideLoading();
+
+                    var ctx0 = document.getElementById("myPieChart").getContext("2d");
+                    myPieChart = new Chart(ctx0).Pie($scope.graph);
+                });
+
+            });
+
+        };
 
     });

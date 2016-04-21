@@ -7,7 +7,7 @@ var data = {
     Diseases: []
 };
 
-angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect'])
+angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect','chart.js'])
 
     .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
 
@@ -339,5 +339,52 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $ionicTabsDelegate.$getByHandle('tab1').select(0);
                 });
             };
-        }
-    );
+        })
+
+    .controller('GraphCtrl',function($scope,$http){
+
+
+        $scope.disease=[];
+        $scope.disease.name="";
+
+        var diseaseJSON={
+            "DiseaseName":"Diabetes"
+        };
+
+        $scope.graph = {};                        // Empty graph object to hold the details for this graph
+        $scope.graph.data = [];
+        $scope.graph.labels = [];    // Add labels for the X-axis
+        //$scope.graph.series = ['Patient Count'];  // Add information for the hover/touch effect
+
+        $scope.getGraphClick=function(){
+
+            $scope.graph.data = [];
+            $scope.graph.labels = [];
+            if($scope.disease.name.length==0){
+                alert("Please Enter Disease Name!!!");
+                return;
+            }
+
+            $http.post("http://diseaseregistry-61406.onmodulus.net/api/Disease",diseaseJSON).then(function(response){
+
+                $http.post("http://diseaseregistry-61406.onmodulus.net/api/Graph",response.data).then(function(response){
+
+                    if(response.data.length==0){
+                        alert("No Patients Found");
+                        return;
+                    }
+
+                    var temp1=(response.data);
+                    var CityCount=[];
+                    temp1.forEach(function(obj){
+                        CityCount.push(obj.CityCount);
+                        $scope.graph.labels.push(obj._id.City);
+                    });
+                    $scope.graph.data.push(CityCount);
+                });
+
+            });
+
+        };
+
+    });

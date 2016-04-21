@@ -71,6 +71,16 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
                         controller: 'AddCohortCtrl'
                     }
                 }
+            })
+            
+            .state('tab.Analysis', {
+                url: '/Analysis',
+                views: {
+                    'tab-Analysis': {
+                        templateUrl: 'templates/tab-Analysis.html',
+                        controller: 'GraphCtrl'
+                    }
+                }
             });
 
         // if none of the above states are matched, use this as the fallback
