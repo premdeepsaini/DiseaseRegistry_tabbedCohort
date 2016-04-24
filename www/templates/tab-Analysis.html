@@ -1,0 +1,18 @@
+<ion-view view-title="Analysis">
+    <ion-content>
+
+        <div class="card ">
+            <div class="title">
+                <div class="item item-text item-text-wrap">
+                    <input type="text" id="cohortNameField" required placeholder="Enter Disease Name"
+                           ng-model="disease.name">
+                </div>
+            </div>
+        </div>
+        <div >
+        <canvas id="myPieChart" width="250" height="250"></canvas>
+        </div>
+        <label>Disease: {{disease.name}}</label>
+        <button class="button button-positive button-block" ng-click="getGraphClick()">Submit</button>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,41 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="Cohort:{{cohort_name}}">
+    <ion-content>
+
+        <div class="card item-placeholder ">
+            <ion-item>
+                <div class="row">
+                    <h4>Minimum Age: {{filtersList.MinAge}}</h4><br>
+                </div>
+                <div class="row">
+                    <h4>Maximum Age: {{filtersList.MaxAge}}</h4><br>
+                </div>
+                <div class="row">
+                   <h4>Gender: </h4> <h4 ng-repeat="gender in filtersList.PatientGender">{{gender}}&nbsp&nbsp</h4><br>
+                </div>
+                <div class="row scroll-y item-text-wrap">
+                    <h4>Cities: </h4><h4 ng-repeat="city in filtersList.City">{{city}}&nbsp&nbsp</h4>
+                </div>
+                <div class="row scroll-y item-text-wrap">
+                    <h4>Diseases: </h4><h4 ng-repeat="disease in filtersList.Diseases">{{disease}}&nbsp&nbsp</h4><br>
+                </div>
+            </ion-item>
+        </div>
+
+        <h2 class="placeholder-icon">
+            <center>List of Patients</center>
+        </h2>
+        <ion-list class="card ">
+            <ion-item ng-repeat="patient in patientsList" ng-click="getPatientDetails(patient.PatientID)">
+
+                <h4>{{patient.FirstName}} {{patient.LastName}}</h4>
+            </ion-item>
+        </ion-list>
+
+    </ion-content>
+</ion-view>
