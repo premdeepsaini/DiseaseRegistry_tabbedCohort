@@ -3,7 +3,10 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
         "id": "cordova-plugin-console.console",
+<<<<<<< HEAD
         "pluginId": "cordova-plugin-console",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "console"
         ]
@@ -11,7 +14,10 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-console/www/logger.js",
         "id": "cordova-plugin-console.logger",
+<<<<<<< HEAD
         "pluginId": "cordova-plugin-console",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "cordova.logger"
         ]
@@ -19,7 +25,10 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-device/www/device.js",
         "id": "cordova-plugin-device.device",
+<<<<<<< HEAD
         "pluginId": "cordova-plugin-device",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "device"
         ]
@@ -27,7 +36,10 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "id": "cordova-plugin-splashscreen.SplashScreen",
+<<<<<<< HEAD
         "pluginId": "cordova-plugin-splashscreen",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "navigator.splashscreen"
         ]
@@ -35,7 +47,10 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
         "id": "cordova-plugin-statusbar.statusbar",
+<<<<<<< HEAD
         "pluginId": "cordova-plugin-statusbar",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "window.StatusBar"
         ]
@@ -43,11 +58,15 @@ module.exports = [
     {
         "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
         "id": "ionic-plugin-keyboard.keyboard",
+<<<<<<< HEAD
         "pluginId": "ionic-plugin-keyboard",
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         "clobbers": [
             "cordova.plugins.Keyboard"
         ],
         "runs": true
+<<<<<<< HEAD
     },
     {
         "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
@@ -69,6 +88,8 @@ module.exports = [
         "clobbers": [
             "ProgressIndicator"
         ]
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 ];
 module.exports.metadata = 
@@ -79,10 +100,14 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.0",
     "cordova-plugin-statusbar": "2.1.1",
     "cordova-plugin-whitelist": "1.2.1",
+<<<<<<< HEAD
     "ionic-plugin-keyboard": "1.0.8",
     "cordova-plugin-x-toast": "2.5.0",
     "cordova-plugin-crosswalk-webview": "1.6.1",
     "org.pbernasconi.progressindicator": "1.1.0"
+=======
+    "ionic-plugin-keyboard": "1.0.8"
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 }
 // BOTTOM OF METADATA
 });

@@ -18,7 +18,11 @@
  */
 //
 //  main.m
+<<<<<<< HEAD
 //  TabsCohort
+=======
+//  HelloCordova
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.

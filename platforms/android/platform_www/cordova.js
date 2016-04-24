@@ -1,5 +1,9 @@
 // Platform: android
+<<<<<<< HEAD
 // c517ca811b4948b630e0b74dbae6c9637939da24
+=======
+// 2c29e187e4206a6a77fba940ef6f77aef5c7eb8c
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 /*
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
@@ -19,7 +23,11 @@
  under the License.
 */
 ;(function() {
+<<<<<<< HEAD
 var PLATFORM_VERSION_BUILD_LABEL = '5.1.1';
+=======
+var PLATFORM_VERSION_BUILD_LABEL = '4.1.1';
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 // file: src/scripts/require.js
 
 /*jshint -W079 */
@@ -101,9 +109,13 @@ if (typeof module === "object" && typeof require === "function") {
 // file: src/cordova.js
 define("cordova", function(require, exports, module) {
 
+<<<<<<< HEAD
 // Workaround for Windows 10 in hosted environment case
 // http://www.w3.org/html/wg/drafts/html/master/browsers.html#named-access-on-the-window-object
 if (window.cordova && !(window.cordova instanceof HTMLElement)) {
+=======
+if(window.cordova){
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     throw new Error("cordova already defined");
 }
 
@@ -1293,12 +1305,19 @@ define("cordova/init_b", function(require, exports, module) {
 
 var channel = require('cordova/channel');
 var cordova = require('cordova');
+<<<<<<< HEAD
 var modulemapper = require('cordova/modulemapper');
 var platform = require('cordova/platform');
 var pluginloader = require('cordova/pluginloader');
 var utils = require('cordova/utils');
 
 var platformInitChannelsArray = [channel.onDOMContentLoaded, channel.onNativeReady, channel.onPluginsReady];
+=======
+var platform = require('cordova/platform');
+var utils = require('cordova/utils');
+
+var platformInitChannelsArray = [channel.onDOMContentLoaded, channel.onNativeReady];
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
 // setting exec
 cordova.exec = require('cordova/exec');
@@ -1383,6 +1402,7 @@ if (window._nativeReady) {
 // Call the platform-specific initialization.
 platform.bootstrap && platform.bootstrap();
 
+<<<<<<< HEAD
 // Wrap in a setTimeout to support the use-case of having plugin JS appended to cordova.js.
 // The delay allows the attached modules to be defined before the plugin loader looks for them.
 setTimeout(function() {
@@ -1391,11 +1411,16 @@ setTimeout(function() {
     });
 }, 0);
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 /**
  * Create all cordova objects once native side is ready.
  */
 channel.join(function() {
+<<<<<<< HEAD
     modulemapper.mapModules(window);
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
     platform.initialize && platform.initialize();
 
@@ -1514,6 +1539,7 @@ exports.reset();
 
 });
 
+<<<<<<< HEAD
 // file: src/common/modulemapper_b.js
 define("cordova/modulemapper_b", function(require, exports, module) {
 
@@ -1617,6 +1643,11 @@ define("cordova/platform", function(require, exports, module) {
 // The last resume event that was received that had the result of a plugin call.
 var lastResumeEvent = null;
 
+=======
+// file: /Users/steveng/repo/cordova/cordova-android/cordova-js-src/platform.js
+define("cordova/platform", function(require, exports, module) {
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 module.exports = {
     id: 'android',
     bootstrap: function() {
@@ -1656,6 +1687,7 @@ module.exports = {
         bindButtonChannel('volumeup');
         bindButtonChannel('volumedown');
 
+<<<<<<< HEAD
         // The resume event is not "sticky", but it is possible that the event
         // will contain the result of a plugin call. We need to ensure that the
         // plugin result is delivered even after the event is fired (CB-10498)
@@ -1669,6 +1701,8 @@ module.exports = {
             }
         };
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         // Let native code know we are all done on the JS side.
         // Native code will then un-hide the WebView.
         channel.onCordovaReady.subscribe(function() {
@@ -1690,11 +1724,16 @@ function onMessageFromNative(msg) {
         case 'searchbutton':
         // App life cycle events
         case 'pause':
+<<<<<<< HEAD
+=======
+        case 'resume':
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         // Volume events
         case 'volumedownbutton':
         case 'volumeupbutton':
             cordova.fireDocumentEvent(action);
             break;
+<<<<<<< HEAD
         case 'resume':
             if(arguments.length > 1 && msg.pendingResult) {
                 if(arguments.length === 2) {
@@ -1714,6 +1753,8 @@ function onMessageFromNative(msg) {
             }
             cordova.fireDocumentEvent(action, msg);
             break;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         default:
             throw new Error('Unknown event action ' + action);
     }
@@ -1817,6 +1858,13 @@ module.exports = {
 // file: src/common/pluginloader.js
 define("cordova/pluginloader", function(require, exports, module) {
 
+<<<<<<< HEAD
+=======
+/*
+    NOTE: this file is NOT used when we use the browserify workflow
+*/
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 var modulemapper = require('cordova/modulemapper');
 var urlutil = require('cordova/urlutil');
 
@@ -1926,6 +1974,7 @@ exports.load = function(callback) {
 
 });
 
+<<<<<<< HEAD
 // file: src/common/pluginloader_b.js
 define("cordova/pluginloader_b", function(require, exports, module) {
 
@@ -1974,6 +2023,8 @@ exports.load = function(callback) {
 
 });
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 // file: src/common/urlutil.js
 define("cordova/urlutil", function(require, exports, module) {
 

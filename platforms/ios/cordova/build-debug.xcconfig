@@ -21,8 +21,12 @@
 // XCode Build settings for "Debug" Build Configuration.
 //
 
+<<<<<<< HEAD
 #include "build.xcconfig"
 
 GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1
 
 #include "build-extras.xcconfig"
+=======
+#include "build.xcconfig"
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

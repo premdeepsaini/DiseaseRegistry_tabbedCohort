@@ -19,15 +19,35 @@
 
 //
 //  AppDelegate.h
+<<<<<<< HEAD
 //  TabsCohort
+=======
+//  HelloCordova
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
+<<<<<<< HEAD
 #import <Cordova/CDVViewController.h>
 #import <Cordova/CDVAppDelegate.h>
 
 @interface AppDelegate : CDVAppDelegate {}
+=======
+#import <UIKit/UIKit.h>
+
+#import <Cordova/CDVViewController.h>
+
+@interface AppDelegate : NSObject <UIApplicationDelegate>{}
+
+// invoke string is passed to your app on launch, this is only valid if you
+// edit HelloCordova-Info.plist to add a protocol
+// a simple tutorial can be found here :
+// http://iphonedevelopertips.com/cocoa/launching-your-own-application-via-a-custom-url-scheme.html
+
+@property (nonatomic, strong) IBOutlet UIWindow* window;
+@property (nonatomic, strong) IBOutlet CDVViewController* viewController;
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
 @end

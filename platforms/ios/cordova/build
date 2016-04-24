@@ -19,6 +19,7 @@
        under the License.
 */
 
+<<<<<<< HEAD
 var args  = process.argv;
 var Api = require('./Api');
 var nopt = require('nopt');
@@ -50,9 +51,23 @@ var buildOpts = nopt({
 buildOpts.argv = buildOpts.argv.remain;
 
 new Api().build(buildOpts).done(function() {
+=======
+var build = require('./lib/build'),
+    args  = process.argv;
+
+// Handle help flag
+if (['--help', '/?', '-h', 'help', '-help', '/help'].indexOf(args[2]) > -1) {
+    build.help();
+} else {
+    build.run(args).done(function() {
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         console.log('** BUILD SUCCEEDED **');
     }, function(err) {
         var errorMessage = (err && err.stack) ? err.stack : err;
         console.error(errorMessage);
         process.exit(2);
     });
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

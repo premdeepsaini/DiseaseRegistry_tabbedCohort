@@ -4,7 +4,38 @@
         "uninstalled": []
     },
     "config_munge": {
+<<<<<<< HEAD
         "files": {}
+=======
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"io.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     },
     "installed_plugins": {
         "cordova-plugin-console": {
@@ -24,6 +55,7 @@
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
+<<<<<<< HEAD
         },
         "cordova-plugin-x-toast": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
@@ -33,6 +65,8 @@
         },
         "org.pbernasconi.progressindicator": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         }
     },
     "dependent_plugins": {}

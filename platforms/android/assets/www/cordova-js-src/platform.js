@@ -19,9 +19,12 @@
  *
 */
 
+<<<<<<< HEAD
 // The last resume event that was received that had the result of a plugin call.
 var lastResumeEvent = null;
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 module.exports = {
     id: 'android',
     bootstrap: function() {
@@ -61,6 +64,7 @@ module.exports = {
         bindButtonChannel('volumeup');
         bindButtonChannel('volumedown');
 
+<<<<<<< HEAD
         // The resume event is not "sticky", but it is possible that the event
         // will contain the result of a plugin call. We need to ensure that the
         // plugin result is delivered even after the event is fired (CB-10498)
@@ -74,6 +78,8 @@ module.exports = {
             }
         };
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         // Let native code know we are all done on the JS side.
         // Native code will then un-hide the WebView.
         channel.onCordovaReady.subscribe(function() {
@@ -95,11 +101,16 @@ function onMessageFromNative(msg) {
         case 'searchbutton':
         // App life cycle events
         case 'pause':
+<<<<<<< HEAD
+=======
+        case 'resume':
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         // Volume events
         case 'volumedownbutton':
         case 'volumeupbutton':
             cordova.fireDocumentEvent(action);
             break;
+<<<<<<< HEAD
         case 'resume':
             if(arguments.length > 1 && msg.pendingResult) {
                 if(arguments.length === 2) {
@@ -119,6 +130,8 @@ function onMessageFromNative(msg) {
             }
             cordova.fireDocumentEvent(action, msg);
             break;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         default:
             throw new Error('Unknown event action ' + action);
     }

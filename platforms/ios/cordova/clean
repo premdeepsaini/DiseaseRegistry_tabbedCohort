@@ -19,6 +19,7 @@
        under the License.
 */
 
+<<<<<<< HEAD
 var Api = require('./Api');
 var path  = require('path');
 
@@ -33,3 +34,13 @@ new Api().clean({argv: process.argv.slice(2)}).done(function() {
     console.error(err);
     process.exit(2);
 });
+=======
+var clean = require('./lib/clean');
+
+clean.run(process.argv).done(function () {
+    console.log('** CLEAN SUCCEEDED **');
+}, function(err) {
+    console.error(err);
+    process.exit(2);
+});
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

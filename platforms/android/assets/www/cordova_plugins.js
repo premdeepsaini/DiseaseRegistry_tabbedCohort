@@ -33,6 +33,7 @@ module.exports = [
             "cordova.plugins.Keyboard"
         ],
         "runs": true
+<<<<<<< HEAD
     },
     {
         "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
@@ -51,6 +52,8 @@ module.exports = [
         "clobbers": [
             "ProgressIndicator"
         ]
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 ];
 module.exports.metadata = 
@@ -61,10 +64,15 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.0",
     "cordova-plugin-statusbar": "2.1.1",
     "cordova-plugin-whitelist": "1.2.1",
+<<<<<<< HEAD
     "ionic-plugin-keyboard": "1.0.8",
     "cordova-plugin-x-toast": "2.5.0",
     "cordova-plugin-crosswalk-webview": "1.6.1",
     "org.pbernasconi.progressindicator": "1.1.0"
 };
+=======
+    "ionic-plugin-keyboard": "1.0.8"
+}
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 // BOTTOM OF METADATA
 });

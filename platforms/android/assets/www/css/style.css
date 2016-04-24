@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Age Filter Popup CSS Begins*/
 .agePopup {
     position: absolute;
@@ -134,4 +135,9 @@
     position: relative;
     left: 10%;
     color: #4b8bf4;
+=======
+.cityPopup{
+    width:400px !important;
+    height:350px !important;
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 }

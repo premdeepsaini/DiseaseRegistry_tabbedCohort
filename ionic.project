@@ -1,5 +1,6 @@
 {
   "name": "TabsCohort",
+<<<<<<< HEAD
   "app_id": "",
   "browsers": [
     {
@@ -8,4 +9,7 @@
       "version": "12.41.296.5"
     }
   ]
+=======
+  "app_id": ""
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 }

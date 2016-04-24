@@ -21,6 +21,7 @@ package org.apache.cordova;
 
 import android.app.Activity;
 import android.content.Intent;
+<<<<<<< HEAD
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -29,6 +30,11 @@ import android.util.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+=======
+import android.os.Bundle;
+import android.util.Log;
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -43,11 +49,16 @@ public class CordovaInterfaceImpl implements CordovaInterface {
 
     protected ActivityResultHolder savedResult;
     protected CordovaPlugin activityResultCallback;
+<<<<<<< HEAD
     protected CordovaPlugin permissionResultCallback;
     protected String initCallbackService;
     protected int activityResultRequestCode;
     protected boolean activityWasDestroyed = false;
     protected Bundle savedPluginState;
+=======
+    protected String initCallbackService;
+    protected int activityResultRequestCode;
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
     public CordovaInterfaceImpl(Activity activity) {
         this(activity, Executors.newCachedThreadPool());
@@ -97,13 +108,18 @@ public class CordovaInterfaceImpl implements CordovaInterface {
     }
 
     /**
+<<<<<<< HEAD
      * Dispatches any pending onActivityResult callbacks and sends the resume event if the
      * Activity was destroyed by the OS.
+=======
+     * Dispatches any pending onActivityResult callbacks.
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
      */
     public void onCordovaInit(PluginManager pluginManager) {
         this.pluginManager = pluginManager;
         if (savedResult != null) {
             onActivityResult(savedResult.requestCode, savedResult.resultCode, savedResult.intent);
+<<<<<<< HEAD
         } else if(activityWasDestroyed) {
             // If there was no Activity result, we still need to send out the resume event if the
             // Activity was destroyed by the OS
@@ -122,6 +138,8 @@ public class CordovaInterfaceImpl implements CordovaInterface {
                 }
             }
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         }
     }
 
@@ -136,10 +154,13 @@ public class CordovaInterfaceImpl implements CordovaInterface {
             savedResult = new ActivityResultHolder(requestCode, resultCode, intent);
             if (pluginManager != null) {
                 callback = pluginManager.getPlugin(initCallbackService);
+<<<<<<< HEAD
                 if(callback != null) {
                     callback.onRestoreStateForActivityResult(savedPluginState.getBundle(callback.getServiceName()),
                             new ResumeCallback(callback.getServiceName(), pluginManager));
                 }
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
             }
         }
         activityResultCallback = null;
@@ -151,7 +172,11 @@ public class CordovaInterfaceImpl implements CordovaInterface {
             callback.onActivityResult(requestCode, resultCode, intent);
             return true;
         }
+<<<<<<< HEAD
         Log.w(TAG, "Got an activity result, but no plugin was registered to receive it" + (savedResult != null ? " yet!" : "."));
+=======
+        Log.w(TAG, "Got an activity result, but no plugin was registered to receive it" + (savedResult != null ? " yet!": "."));
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         return false;
     }
 
@@ -172,10 +197,13 @@ public class CordovaInterfaceImpl implements CordovaInterface {
             String serviceName = activityResultCallback.getServiceName();
             outState.putString("callbackService", serviceName);
         }
+<<<<<<< HEAD
         if(pluginManager != null){
             outState.putBundle("plugin", pluginManager.onSaveInstanceState());
         }
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 
     /**
@@ -183,8 +211,11 @@ public class CordovaInterfaceImpl implements CordovaInterface {
      */
     public void restoreInstanceState(Bundle savedInstanceState) {
         initCallbackService = savedInstanceState.getString("callbackService");
+<<<<<<< HEAD
         savedPluginState = savedInstanceState.getBundle("plugin");
         activityWasDestroyed = true;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 
     private static class ActivityResultHolder {
@@ -198,6 +229,7 @@ public class CordovaInterfaceImpl implements CordovaInterface {
             this.intent = intent;
         }
     }
+<<<<<<< HEAD
 
     /**
      * Called by the system when the user grants permissions
@@ -240,4 +272,6 @@ public class CordovaInterfaceImpl implements CordovaInterface {
             return true;
         }
     }
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 }

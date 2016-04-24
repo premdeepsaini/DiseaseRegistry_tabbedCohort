@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 cordova.define("ionic-plugin-keyboard.keyboard", function(require, exports, module) {
 
+=======
+cordova.define("ionic-plugin-keyboard.keyboard", function(require, exports, module) { 
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 var argscheck = require('cordova/argscheck'),
     utils = require('cordova/utils'),
     exec = require('cordova/exec'),

@@ -17,7 +17,11 @@
  under the License.
  */
 //
+<<<<<<< HEAD
 // Prefix header for all source files of the 'TabsCohort' target in the 'TabsCohort' project
+=======
+// Prefix header for all source files of the 'HelloCordova' target in the 'HelloCordova' project
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 //
 
 #ifdef __OBJC__

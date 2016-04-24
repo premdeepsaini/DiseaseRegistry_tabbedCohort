@@ -3,10 +3,17 @@ Create tabs with an icon and label, using the tabs-positive style.
 Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
+<<<<<<< HEAD
 <ion-tabs class="tabs-icon-top tabs-color-active-positive" delegate-handle="tab1">
 
   <!-- Chats Tab -->
   <ion-tab title="Cohorts" icon-off="ion-ios-list-outline" icon-on="ion-ios-list" href="#/tab/CohortsList" on-select="doRefresh()">
+=======
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Chats Tab -->
+  <ion-tab title="Cohorts" icon-off="ion-ios-list-outline" icon-on="ion-ios-list" href="#/tab/CohortsList">
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     <ion-nav-view name="tab-CohortsList"></ion-nav-view>
   </ion-tab>
 
@@ -15,9 +22,12 @@ navigation history that also transitions its views in and out.
     <ion-nav-view name="tab-newCohort"></ion-nav-view>
   </ion-tab>
 
+<<<<<<< HEAD
   <ion-tab title="Analysis" icon-off="ion-arrow-graph-up-right" icon-on="ion-arrow-graph-up-right" href="#/tab/Analysis">
     <ion-nav-view name="tab-Analysis"></ion-nav-view>
   </ion-tab>
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
 </ion-tabs>

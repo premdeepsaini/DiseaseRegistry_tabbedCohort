@@ -19,6 +19,7 @@
        under the License.
 */
 
+<<<<<<< HEAD
 
 var args = process.argv;
 var Api = require('./Api');
@@ -53,9 +54,23 @@ var opts = nopt({
 opts.argv = opts.argv.remain;
 
 new Api().run(opts).done(function() {
+=======
+var args = process.argv,
+    run   = require('./lib/run');
+
+// Handle help flag
+if (['--help', '/?', '-h', 'help', '-help', '/help'].indexOf(args[2]) > -1) {
+    run.help();
+} else {
+    run.run(args).done(function() {
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         console.log('** RUN SUCCEEDED **');
     }, function (err) {
         var errorMessage = (err && err.stack) ? err.stack : err;
         console.error(errorMessage);
         process.exit(2);
     });
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

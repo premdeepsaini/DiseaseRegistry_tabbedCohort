@@ -19,7 +19,11 @@
 
 //
 //  MainViewController.h
+<<<<<<< HEAD
 //  TabsCohort
+=======
+//  HelloCordova
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
@@ -99,6 +103,39 @@
 }
 */
 
+<<<<<<< HEAD
+=======
+#pragma mark UIWebDelegate implementation
+
+- (void)webViewDidFinishLoad:(UIWebView*)theWebView
+{
+    // Black base color for background matches the native apps
+    theWebView.backgroundColor = [UIColor blackColor];
+
+    return [super webViewDidFinishLoad:theWebView];
+}
+
+/* Comment out the block below to over-ride */
+
+/*
+
+- (void) webViewDidStartLoad:(UIWebView*)theWebView
+{
+    return [super webViewDidStartLoad:theWebView];
+}
+
+- (void) webView:(UIWebView*)theWebView didFailLoadWithError:(NSError*)error
+{
+    return [super webView:theWebView didFailLoadWithError:error];
+}
+
+- (BOOL) webView:(UIWebView*)theWebView shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    return [super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType];
+}
+*/
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 @end
 
 @implementation MainCommandDelegate

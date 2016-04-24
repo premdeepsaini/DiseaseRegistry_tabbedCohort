@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ion-view class="agePopup" ng-controller="AddCohortCtrl">
     <ion-header-bar title="Select Age Range" Class="padding-bottom">
         <h3 class="selectAgeTitle">Select Age Range</h3>
@@ -17,3 +18,15 @@
         </div>
     </ion-footer-bar>
 </ion-view>
+=======
+<div ng-controller="AddCohortCtrl">
+     <rzslider rz-slider-model="ageSlider.min" rz-slider-high="ageSlider.max"
+              rz-slider-options="ageSlider.options"></rzslider>
+
+    <div class="row">
+        <input type="button" class="button button-assertive" ng-click="AgeCancel()" value="Cancel">
+        <div class="padding"></div>
+        <input type="submit" class="button button-positive" ng-click="AgeSubmit()" value="Submit">
+    </div>
+</div>
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

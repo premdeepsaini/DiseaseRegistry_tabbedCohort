@@ -69,6 +69,7 @@ public interface CordovaInterface {
      * Returns a shared thread pool that can be used for background tasks.
      */
     public ExecutorService getThreadPool();
+<<<<<<< HEAD
 
     /**
      * Sends a permission request to the activity for one permission.
@@ -85,4 +86,6 @@ public interface CordovaInterface {
      */
     public boolean hasPermission(String permission);
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 }

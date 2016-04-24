@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 cordova.define("cordova-plugin-device.device", function(require, exports, module) {
 /*
+=======
+cordova.define("cordova-plugin-device.device", function(require, exports, module) { /*
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

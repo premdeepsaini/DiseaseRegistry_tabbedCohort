@@ -1,7 +1,11 @@
 angular.module('DiseaseRegistry.services', [])
     .factory('cohortFactory', function ($http) {
 
+<<<<<<< HEAD
         var url = "http://diseaseregistry-61406.onmodulus.net/api/";
+=======
+        var url = "http://diseaseregistry-59621.onmodulus.net/api/Cohorts";
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
         //var url= "http://192.168.10.202/api/Cohorts";
         var cities = [{"city": "Mumbai", "checked": false},
@@ -1220,6 +1224,7 @@ angular.module('DiseaseRegistry.services', [])
             {"city": "Asarganj", "checked": false},
             {"city": "Sarsod", "checked": false}];
 
+<<<<<<< HEAD
         var diseases=[
             {
                 "disease":"Noninflammatory disorders of testis",
@@ -11694,10 +11699,13 @@ angular.module('DiseaseRegistry.services', [])
                 "checked":false
             }
         ];
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
         return {
 
             getCohortList: function () {
+<<<<<<< HEAD
                 return $http.get(url+"Cohorts");
             },
 
@@ -11713,11 +11721,20 @@ angular.module('DiseaseRegistry.services', [])
 
             getDiseaseList:function(){
                 return diseases;
+=======
+                return $http.get(url);
+            },
+
+            deleteCohort: function (cohort) {
+                url += "/" + cohort._id;
+                return $http.delete(url);
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
             },
 
             getInputCities: function () {
 
                 return cities;
+<<<<<<< HEAD
             },
             postFilters: function(JSONObj){
                 return $http.post(url+"Filters", JSONObj);
@@ -11738,6 +11755,8 @@ angular.module('DiseaseRegistry.services', [])
                 });
 
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
             }
         };
     });

@@ -3,6 +3,7 @@ var data = {
     MinAge: 0,
     MaxAge: 150,
     PatientGender: [],
+<<<<<<< HEAD
     City: [],
     Diseases: []
 };
@@ -10,6 +11,14 @@ var data = {
 angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect','chart.js'])
 
     .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
+=======
+    City: []
+};
+
+angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect'])
+
+    .controller('CohortsListCtrl', function ($scope, $rootScope, $http, cohortFactory) {
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
         getCohortList();
 
@@ -20,6 +29,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         }
 
         $scope.doRefresh = function () {
+<<<<<<< HEAD
             getCohortList();
             $scope.$broadcast('scroll.refreshComplete');
 
@@ -89,11 +99,40 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.cohortName = {
                 name: ''
             };
+=======
+            cohortFactory.getCohortList()
+                .success(function (data) {
+                    $scope.cohorts = data;
+                    $scope.$broadcast('scroll.refreshComplete');
+                });
+        };
+
+        $scope.getCohort = function (cohort) {
+            $rootScope.cohort_name = cohort.name;
+            $rootScope.cohortId = cohort.id;
+            $rootScope.cohort_id = cohort._id;
+        };
+
+        $scope.deleteCohort = function (cohort) {
+            cohortFactory.deleteCohort(cohort).then(function (cohort) {
+                $scope.cohorts.splice($scope.cohorts.indexOf(cohort), 1);
+            });
+        };
+    })
+
+    .controller('AddCohortCtrl', function ($scope, $ionicPopup, $ionicListDelegate, $http, cohortFactory) {
+
+            $scope.gender = '';
+            $scope.cohortName="";
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
 
             $scope.inputCities = cohortFactory.getInputCities();
 
+<<<<<<< HEAD
             $scope.inputDiseases = cohortFactory.getDiseaseList();
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
             $scope.cityDropdownSettings = {
                 enableSearch: "true",
@@ -141,8 +180,11 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             };
 
             $scope.AgeCancel = function () {
+<<<<<<< HEAD
                 data.MinAge = 0;
                 data.MaxAge = 150;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 $scope.agePopupDialog.close();
             };
 
@@ -162,19 +204,28 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
                 $scope.genderPopupDialog = $ionicPopup.show({
                     templateUrl: 'templates/filters/genderFilter.html',
+<<<<<<< HEAD
+=======
+                    title: 'Gender',
+                    subtitle: 'Select Gender',
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                     scope: $scope
                 });
             };
 
 
             $scope.GenderCancel = function () {
+<<<<<<< HEAD
                 data.PatientGender = [];
                 data.PatientGender.push('Male', 'Female');
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 $scope.genderPopupDialog.close();
             };
 
             $scope.GenderSubmit = function () {
 
+<<<<<<< HEAD
                 console.log($scope.gender);
                 if ($scope.gender != '') {
                     if (data.PatientGender.length != 0) {
@@ -185,11 +236,31 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     console.log("After Clearing" + angular.toJson(data));
                     document.getElementById("genderText").style.color = "Blue";
                     document.getElementById("genderSelect").innerHTML = data.PatientGender[0];
+=======
+                if ($scope.gender != '') {
+                    data.PatientGender.push($scope.gender);
+                    document.getElementById("genderText").style.color = "Blue";
+                    document.getElementById("genderSelect").innerHTML = data.PatientGender[0];
+                    console.log(data.PatientGender);
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 }
                 else {
                     data.PatientGender.push('Male', 'Female');
                 }
 
+<<<<<<< HEAD
+=======
+                console.log(data);
+
+                //console.log($scope.inputCities);
+                /*var JSONObj = angular.toJson($scope.data);
+                 console.log(JSONObj);
+                 console.log("posting Data");
+                 $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
+                 console.log("Data Posted" + angular.toJson(data));
+                 });*/
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 $scope.genderPopupDialog.close();
             };
 
@@ -210,12 +281,19 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
 
             $scope.cityPopup = function () {
                 $scope.cityPopupDialog = $ionicPopup.show({
+<<<<<<< HEAD
                     cssClass: 'genderCSS',
                     templateUrl: 'templates/filters/cityFilter.html',
+=======
+                    templateUrl: 'templates/filters/cityFilter.html',
+                    title: 'City',
+                    subtitle: 'Select Cities',
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                     scope: $scope
                 });
             };
 
+<<<<<<< HEAD
             $scope.CityCancel = function () {
 
                 for (i = 0; i < $scope.inputCities.length; i++) {
@@ -229,12 +307,18 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.CitySubmit = function () {
 
                 data.City = [];
+=======
+
+            $scope.CitySubmit = function () {
+
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 for (i = 0; i < $scope.inputCities.length; i++) {
                     if ($scope.inputCities[i].checked == true) {
                         data.City.push($scope.inputCities[i].city);
                         $scope.inputCities.checked = false;
                     }
                 }
+<<<<<<< HEAD
 
                 document.getElementById("cityText").style.color = "Blue";
                 document.getElementById("citySelect").innerHTML = data.City.length + " Cities selected";
@@ -315,6 +399,25 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                 if (data.CohortName.length == 0) {
 
                     alert("Please Enter Cohort Name..!!");
+=======
+                $scope.cityPopupDialog.close();
+            };
+
+            $scope.CityCancel = function () {
+
+                $scope.cityPopupDialog.close();
+            };
+
+//////////////////////////////////City Filter Begin///////////////////////////////////////////////////////////
+
+            $scope.createCohortSubmit = function () {
+
+                data.CohortName = $scope.cohortName;
+
+                if (!data.CohortName.length) {
+
+                    alert("bc naam to daal");
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                     return;
                 }
 
@@ -325,10 +428,19 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     data.PatientGender.push('Male', 'Female');
                 }
 
+<<<<<<< HEAD
+=======
+                if (data.City.length == 0) {
+                    for (i = 0; i < $scope.inputCities.length; i++) {
+                        data.City.push($scope.inputCities[i].city);
+                    }
+                }
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
                 var JSONObj = angular.toJson(data);
                 console.log(JSONObj);
                 console.log("posting Data");
+<<<<<<< HEAD
                 cohortFactory.postFilters(JSONObj).success(function (data) {
                     $scope.onDiseaseClear();
                     $scope.onGenderClear();
@@ -388,3 +500,18 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
 
     });
+=======
+                $http.post("http://diseaseregistry-59621.onmodulus.net/api/Filters", JSONObj).success(function (data) {
+                    console.log("Data Posted" + angular.toJson(data));
+                });
+
+
+                /*
+                 $http.post("http://192.168.10.202/api/Filters", JSONObj).success(function (data) {
+                 console.log("Data Posted" + angular.toJson(data));
+                 });*/
+            }
+            ;
+        }
+    );
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

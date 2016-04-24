@@ -11,7 +11,11 @@
     <ion-refresher on-refresh="doRefresh()"></ion-refresher>
 
     <ion-list>
+<<<<<<< HEAD
       <div collection-repeat="cohort in cohorts | filter:query | orderBy:'name'">
+=======
+      <div ng-repeat="cohort in cohorts | filter:query | orderBy:'name'">
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         <ion-item class="item-remove-animate item-avatar item-icon-right" type="item-text-wrap" href="#/tab/Details"
                   ng-click="getCohort(cohort)">
           <h2>{{cohort.Name}}</h2><br>

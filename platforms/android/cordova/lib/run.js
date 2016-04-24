@@ -25,6 +25,7 @@ var path  = require('path'),
     build = require('./build'),
     emulator = require('./emulator'),
     device   = require('./device'),
+<<<<<<< HEAD
     Q = require('q');
 
 function getInstallTarget(runOptions) {
@@ -54,6 +55,65 @@ function getInstallTarget(runOptions) {
 
     var self = this;
     var install_target = getInstallTarget(runOptions);
+=======
+    shell = require('shelljs'),
+    Q = require('q');
+
+/*
+ * Runs the application on a device if available.
+ * If no device is found, it will use a started emulator.
+ * If no started emulators are found it will attempt to start an avd.
+ * If no avds are found it will error out.
+ * Returns a promise.
+ */
+ module.exports.run = function(args) {
+    var buildFlags = [];
+    var install_target;
+    var list = false;
+
+    for (var i=2; i<args.length; i++) {
+        if (build.isBuildFlag(args[i])) {
+            buildFlags.push(args[i]);
+        } else if (args[i] == '--device') {
+            install_target = '--device';
+        } else if (args[i] == '--emulator') {
+            install_target = '--emulator';
+        } else if (/^--target=/.exec(args[i])) {
+            install_target = args[i].substring(9, args[i].length);
+        } else if (args[i] == '--list') {
+            list = true;
+        } else {
+            console.warn('Option \'' + args[i] + '\' not recognized (ignoring).');
+        }
+    }
+
+    if (list) {
+        var output = '';
+        var temp = '';
+        if (!install_target) {
+            output += 'Available Android Devices:\n';
+            temp = shell.exec(path.join(__dirname, 'list-devices'), {silent:true}).output;
+            temp = temp.replace(/^(?=[^\s])/gm, '\t');
+            output += temp;
+            output += 'Available Android Virtual Devices:\n';
+            temp = shell.exec(path.join(__dirname, 'list-emulator-images'), {silent:true}).output;
+            temp = temp.replace(/^(?=[^\s])/gm, '\t');
+            output += temp;
+        } else if (install_target == '--emulator') {
+            output += 'Available Android Virtual Devices:\n';
+            temp = shell.exec(path.join(__dirname, 'list-emulator-images'), {silent:true}).output;
+            temp = temp.replace(/^(?=[^\s])/gm, '\t');
+            output += temp;
+        } else if (install_target == '--device') {
+            output += 'Available Android Devices:\n';
+            temp = shell.exec(path.join(__dirname, 'list-devices'), {silent:true}).output;
+            temp = temp.replace(/^(?=[^\s])/gm, '\t');
+            output += temp;
+        }
+        console.log(output);
+        return;
+    }
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
     return Q()
     .then(function() {
@@ -62,10 +122,17 @@ function getInstallTarget(runOptions) {
             return device.list()
             .then(function(device_list) {
                 if (device_list.length > 0) {
+<<<<<<< HEAD
                     self.events.emit('warn', 'No target specified, deploying to device \'' + device_list[0] + '\'.');
                     install_target = device_list[0];
                 } else {
                     self.events.emit('warn', 'No target specified, deploying to emulator');
+=======
+                    console.log('WARNING : No target specified, deploying to device \'' + device_list[0] + '\'.');
+                    install_target = device_list[0];
+                } else {
+                    console.log('WARNING : No target specified, deploying to emulator');
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                     install_target = '--emulator';
                 }
             });
@@ -109,6 +176,7 @@ function getInstallTarget(runOptions) {
             });
         });
     }).then(function(resolvedTarget) {
+<<<<<<< HEAD
         // Better just call self.build, but we're doing some processing of
         // build results (according to platformApi spec) so they are in different
         // format than emulator.install expects.
@@ -120,14 +188,24 @@ function getInstallTarget(runOptions) {
                 .then(function () {
                     return emulator.install(resolvedTarget, buildResults);
                 });
+=======
+        return build.run(buildFlags, resolvedTarget).then(function(buildResults) {
+            if (resolvedTarget.isEmulator) {
+                return emulator.install(resolvedTarget, buildResults);
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
             }
             return device.install(resolvedTarget, buildResults);
         });
     });
 };
 
+<<<<<<< HEAD
 module.exports.help = function() {
     console.log('Usage: ' + path.relative(process.cwd(), process.argv[1]) + ' [options]');
+=======
+module.exports.help = function(args) {
+    console.log('Usage: ' + path.relative(process.cwd(), args[1]) + ' [options]');
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     console.log('Build options :');
     console.log('    --debug : Builds project in debug mode');
     console.log('    --release : Builds project in release mode');

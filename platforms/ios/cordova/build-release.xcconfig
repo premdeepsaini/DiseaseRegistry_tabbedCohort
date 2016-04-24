@@ -24,6 +24,10 @@
 #include "build.xcconfig"
 
 CODE_SIGN_IDENTITY = iPhone Distribution
+<<<<<<< HEAD
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
 
 #include "build-extras.xcconfig"
+=======
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

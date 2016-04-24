@@ -46,6 +46,7 @@
         },
         "is_top_level": true,
         "variables": {}
+<<<<<<< HEAD
     },
     "cordova-plugin-x-toast": {
         "source": {
@@ -71,5 +72,7 @@
         },
         "is_top_level": true,
         "variables": {}
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 }

@@ -354,7 +354,10 @@ public class CordovaWebViewImpl implements CordovaWebView {
             case KeyEvent.KEYCODE_VOLUME_DOWN:
             case KeyEvent.KEYCODE_VOLUME_UP:
             case KeyEvent.KEYCODE_BACK:
+<<<<<<< HEAD
             case KeyEvent.KEYCODE_MENU:
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 // TODO: Why are search and menu buttons handled separately?
                 if (override) {
                     boundKeyCodes.add(keyCode);
@@ -446,10 +449,14 @@ public class CordovaWebViewImpl implements CordovaWebView {
         // Resume JavaScript timers. This affects all webviews within the app!
         engine.setPaused(false);
         this.pluginManager.onResume(keepRunning);
+<<<<<<< HEAD
 
         // In order to match the behavior of the other platforms, we only send onResume after an
         // onPause has occurred. The resume event might still be sent if the Activity was killed
         // while waiting for the result of an external Activity once the result is obtained
+=======
+        // To be the same as other platforms, fire this event only when resumed after a "pause".
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         if (hasPausedEver) {
             sendJavascriptEvent("resume");
         }

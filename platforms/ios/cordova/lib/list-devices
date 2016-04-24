@@ -21,7 +21,11 @@
 
 /*jshint node: true*/
 
+<<<<<<< HEAD
 var Q = require('q'),
+=======
+var Q = require('Q'),
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     exec = require('child_process').exec;
 
 /**
@@ -36,6 +40,7 @@ function listDevices() {
     ];
 
     // wrap al lexec calls into promises and wait until they're fullfilled
+<<<<<<< HEAD
     return Q.all(commands).then(function (results) {
         var accumulator = [];
         results.forEach(function (result) {
@@ -50,6 +55,16 @@ function listDevices() {
               }
             });
           }
+=======
+    return Q.all(commands).then(function (promises) {
+        var accumulator = [];
+        promises.forEach(function (promise) {
+            if (promise.state === 'fulfilled') {
+                // Each command promise resolves with array [stout, stderr], and we need stdout only
+                // Append stdout lines to accumulator
+                accumulator.concat(promise.value[0].trim().split('\n'));
+            }
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         });
         return accumulator;
     });
@@ -65,4 +80,8 @@ if (!module.parent) {
             console.log(device);
         });
     });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69

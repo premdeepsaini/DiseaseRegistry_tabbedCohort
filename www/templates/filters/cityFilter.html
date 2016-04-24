@@ -10,7 +10,11 @@
     </div>
     <ion-content class="has-header has-subheader has-footer">
         <ion-list class="card">
+<<<<<<< HEAD
             <ion-checkbox collection-repeat="city in inputCities | filter:cityQuery | orderBy:'city'" ng-model="city.checked">
+=======
+            <ion-checkbox ng-repeat="city in inputCities | filter:cityQuery | orderBy:'city'" ng-model="city.checked">
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 {{city.city}}
             </ion-checkbox>
         </ion-list>

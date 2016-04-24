@@ -71,6 +71,7 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
                         controller: 'AddCohortCtrl'
                     }
                 }
+<<<<<<< HEAD
             })
             
             .state('tab.Analysis', {
@@ -81,6 +82,8 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
                         controller: 'GraphCtrl'
                     }
                 }
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
             });
 
         // if none of the above states are matched, use this as the fallback

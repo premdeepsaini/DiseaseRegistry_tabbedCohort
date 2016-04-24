@@ -21,7 +21,10 @@ package org.apache.cordova.engine;
 import java.util.Arrays;
 import android.annotation.TargetApi;
 import android.app.Activity;
+<<<<<<< HEAD
 import android.content.Context;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -64,15 +67,22 @@ public class SystemWebChromeClient extends WebChromeClient {
     private View mVideoProgressView;
     
     private CordovaDialogsHelper dialogsHelper;
+<<<<<<< HEAD
     private Context appContext;
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 
     private WebChromeClient.CustomViewCallback mCustomViewCallback;
     private View mCustomView;
 
     public SystemWebChromeClient(SystemWebViewEngine parentEngine) {
         this.parentEngine = parentEngine;
+<<<<<<< HEAD
         appContext = parentEngine.webView.getContext();
         dialogsHelper = new CordovaDialogsHelper(appContext);
+=======
+        dialogsHelper = new CordovaDialogsHelper(parentEngine.webView.getContext());
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
 
     /**
@@ -177,14 +187,18 @@ public class SystemWebChromeClient extends WebChromeClient {
     /**
      * Instructs the client to show a prompt to ask the user to set the Geolocation permission state for the specified origin.
      *
+<<<<<<< HEAD
      * This also checks for the Geolocation Plugin and requests permission from the application  to use Geolocation.
      *
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
      * @param origin
      * @param callback
      */
     public void onGeolocationPermissionsShowPrompt(String origin, Callback callback) {
         super.onGeolocationPermissionsShowPrompt(origin, callback);
         callback.invoke(origin, true, false);
+<<<<<<< HEAD
         //Get the plugin, it should be loaded
         CordovaPlugin geolocation = parentEngine.pluginManager.getPlugin("Geolocation");
         if(geolocation != null && !geolocation.hasPermisssion())
@@ -192,6 +206,8 @@ public class SystemWebChromeClient extends WebChromeClient {
             geolocation.requestPermissions(0);
         }
 
+=======
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
     }
     
     // API level 7 is required for this, see if we could lower this using something else

@@ -3,13 +3,21 @@
         <div class="card ">
             <div class="title">
                 <div class="item item-text item-text-wrap">
+<<<<<<< HEAD
                     <input type="text" id="cohortNameField" required placeholder="Enter Cohort Name" ng-model="cohortName.name">
+=======
+                    <input type="text" required placeholder="Enter Cohort Name" ng-model="cohortName">
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
                 </div>
             </div>
         </div>
 
+<<<<<<< HEAD
         <h2 class="placeholder-icon"><center>Filters</center></h2>
         <div class="padding card">
+=======
+        <h2 class="placeholder-icon" style="padding-left: 35%">Filters</h2>
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
         <ion-list delegate-handle="clearButton">
             <ion-item ng-click="agePopup()"><span id="ageText" class="padding-right">Age</span>
                 <span id="ageRange" class="item-placeholder padding-left"></span>
@@ -22,6 +30,7 @@
 
             <ion-item ng-click="cityPopup()"><span id="cityText" class="padding-right">City</span>
                 <span id="citySelect" class="item-placeholder padding-left"></span>
+<<<<<<< HEAD
                 <ion-option-button class="button button-assertive" ng-click="onCityClear()">Clear</ion-option-button>
             </ion-item>
 
@@ -35,4 +44,14 @@
     <ion-footer-bar class="button  button-balanced addCohortFooterCSS" ng-click="createCohortSubmit()" href="#/tab/CohortsList">Create Cohort
         <!--<div class=" button button-calm button-block" ng-click="createCohortSubmit()">Create Cohort</div>-->
     </ion-footer-bar>
+=======
+                <ion-option-button class="button button-assertive" ng-click="onCityClear()">Clear</ion-option-button
+            </ion-item>
+        </ion-list>
+
+        <ion-footer-bar class="button  button-balanced" ng-click="createCohortSubmit()">Create Cohort
+            <!--<div class=" button button-calm button-block" ng-click="createCohortSubmit()">Create Cohort</div>-->
+        </ion-footer-bar>
+    </ion-content>
+>>>>>>> 47b3fd45882c3dcb07a6faedd8f8546357f9ba69
 </ion-view>
