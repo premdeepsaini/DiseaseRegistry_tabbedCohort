@@ -25,8 +25,11 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
 
     .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 
+    $ionicConfigProvider.views.transition('ios');
+    $ionicConfigProvider.tabs.style('standard').position('bottom');
+    $ionicConfigProvider.navBar.alignTitle('center').positionPrimaryButtons('left');
         $ionicConfigProvider.tabs.position('bottom');
-        $ionicConfigProvider.navBar.alignTitle('center');
+        // $ionicConfigProvider.navBar.alignTitle('center');
         $ionicConfigProvider.form.checkbox('circle');
         // Ionic uses AngularUI Router which uses the concept of states
         // Learn more here: https://github.com/angular-ui/ui-router

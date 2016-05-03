@@ -6,7 +6,7 @@
     width: 300px; /* adjust as per your needs */
     height: 250px; /* adjust as per your needs */
     margin-left: -150px; /* negative half of width above */
-    margin-top: -130px; /* negative half of height above */
+    margin-top: -125px; /* negative half of height above */
     border-radius: 10px;
 }
 

@@ -19,26 +19,16 @@
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
+#import "CDVReachability.h"
 
-typedef struct {
-    BOOL iPhone;
-    BOOL iPad;
-    BOOL iPhone4;
-    BOOL iPhone5;
-    BOOL iPhone6;
-    BOOL iPhone6Plus;
-    BOOL retina;
-    
-} CDV_iOSDevice;
+@interface CDVConnection : CDVPlugin {
+    NSString* type;
+    NSString* _callbackId;
 
-@interface CDVSplashScreen : CDVPlugin {
-    UIActivityIndicatorView* _activityView;
-    UIImageView* _imageView;
-    NSString* _curImageName;
-    BOOL _visible;
+    CDVReachability* internetReach;
 }
 
-- (void)show:(CDVInvokedUrlCommand*)command;
-- (void)hide:(CDVInvokedUrlCommand*)command;
+@property (copy) NSString* connectionType;
+@property (strong) CDVReachability* internetReach;
 
 @end

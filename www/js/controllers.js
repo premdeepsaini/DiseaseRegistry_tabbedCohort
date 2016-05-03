@@ -9,9 +9,18 @@ var data = {
 
 angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect','chart.js'])
 
-    .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
+    .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory,$ionicLoading) {
 
         getCohortList();
+
+        $scope.showLoading = function() {
+            $ionicLoading.show({
+                template: 'Loading...'
+            });
+        };
+        $scope.hideLoading = function(){
+            $ionicLoading.hide();
+        };
 
         function getCohortList() {
             cohortFactory.getCohortList().then(function (response) {
@@ -26,11 +35,14 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
 
         $scope.getCohort = function (cohort) {
+            $scope.showLoading();
+            $rootScope.patientsList=[];
             $rootScope.cohort_name = cohort.Name;
             $rootScope.cohort_id = cohort._id;
             cohortFactory.getPatientsList($rootScope.cohort_id).then(function (response) {
                 $rootScope.patientsList = response.data.Patients;
                 $rootScope.filtersList = response.data.Filters;
+                $scope.hideLoading();
                 if($rootScope.filtersList.City.length==0){
                     $rootScope.filtersList.City.push("All Cities");
                 }
@@ -38,6 +50,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $rootScope.filtersList.Diseases.push("None Selected");
                 }
                 console.log($rootScope.filtersList);
+                console.log($rootScope.patientsList);
 
             });
 
@@ -161,6 +174,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.genderPopup = function () {
 
                 $scope.genderPopupDialog = $ionicPopup.show({
+                    title:'Select Gender',
                     templateUrl: 'templates/filters/genderFilter.html',
                     scope: $scope
                 });

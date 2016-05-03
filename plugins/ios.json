@@ -4,16 +4,40 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "framework": {
+                "parents": {
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ],
+                    "CoreTelephony.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
-        },
-        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         },
         "cordova-plugin-statusbar": {
@@ -32,6 +56,9 @@
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         },
         "org.pbernasconi.progressindicator": {
+            "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
+        },
+        "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.ionicframework.tabscohort207038"
         }
     },

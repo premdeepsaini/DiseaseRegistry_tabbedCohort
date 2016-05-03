@@ -9,9 +9,18 @@ var data = {
 
 angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzModule', 'angularjs-dropdown-multiselect','chart.js'])
 
-    .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory) {
+    .controller('CohortsListCtrl', function ($scope, $rootScope, $ionicPopup, cohortFactory,$ionicLoading) {
 
         getCohortList();
+
+        $scope.showLoading = function() {
+            $ionicLoading.show({
+                template: 'Loading...'
+            });
+        };
+        $scope.hideLoading = function(){
+            $ionicLoading.hide();
+        };
 
         function getCohortList() {
             cohortFactory.getCohortList().then(function (response) {
@@ -26,11 +35,14 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
         };
 
         $scope.getCohort = function (cohort) {
+            $scope.showLoading();
+            $rootScope.patientsList=[];
             $rootScope.cohort_name = cohort.Name;
             $rootScope.cohort_id = cohort._id;
             cohortFactory.getPatientsList($rootScope.cohort_id).then(function (response) {
                 $rootScope.patientsList = response.data.Patients;
                 $rootScope.filtersList = response.data.Filters;
+                $scope.hideLoading();
                 if($rootScope.filtersList.City.length==0){
                     $rootScope.filtersList.City.push("All Cities");
                 }
@@ -38,6 +50,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     $rootScope.filtersList.Diseases.push("None Selected");
                 }
                 console.log($rootScope.filtersList);
+                console.log($rootScope.patientsList);
 
             });
 
@@ -161,6 +174,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             $scope.genderPopup = function () {
 
                 $scope.genderPopupDialog = $ionicPopup.show({
+                    title:'Select Gender',
                     templateUrl: 'templates/filters/genderFilter.html',
                     scope: $scope
                 });
@@ -341,7 +355,7 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             };
         })
 
-    .controller('GraphCtrl',function($scope,$http){
+    .controller('GraphCtrl',function($scope,$http,$ionicLoading){
 
 
         $scope.disease=[];
@@ -351,21 +365,46 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
             "DiseaseName":"Diabetes"
         };
 
-        $scope.graph = {};                        // Empty graph object to hold the details for this graph
-        $scope.graph.data = [];
-        $scope.graph.labels = [];    // Add labels for the X-axis
+        $scope.graph = [];                        // Empty graph object to hold the details for this graph
+        // $scope.graph.data = [];
+        // $scope.graph.labels = [];
+        // $scope.graph.color = [];// Add labels for the X-axis
         //$scope.graph.series = ['Patient Count'];  // Add information for the hover/touch effect
+
+        $scope.showLoading = function() {
+            $ionicLoading.show({
+                template: 'Loading...'
+            });
+        };
+        $scope.hideLoading = function(){
+            $ionicLoading.hide();
+        };
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+            for (var i = 0; i < 6; i++ ) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
 
         $scope.getGraphClick=function(){
 
-            $scope.graph.data = [];
-            $scope.graph.labels = [];
+            $scope.graph=[];
+            /*$scope.graph.data = [];
+            $scope.graph.labels = [];*/
             if($scope.disease.name.length==0){
                 alert("Please Enter Disease Name!!!");
                 return;
             }
 
+            diseaseJSON.DiseaseName=$scope.disease.name;
+            console.log(diseaseJSON.DiseaseName);
+
             $http.post("http://diseaseregistry-61406.onmodulus.net/api/Disease",diseaseJSON).then(function(response){
+
+                $scope.showLoading();
 
                 $http.post("http://diseaseregistry-61406.onmodulus.net/api/Graph",response.data).then(function(response){
 
@@ -375,12 +414,21 @@ angular.module('DiseaseRegistry.controllers', ['DiseaseRegistry.services', 'rzMo
                     }
 
                     var temp1=(response.data);
-                    var CityCount=[];
+                    // var CityCount=[];
                     temp1.forEach(function(obj){
-                        CityCount.push(obj.CityCount);
+
+                        $scope.graph.push({value:obj.CityCount,label:obj._id.City, color:getRandomColor()});
+                        /*CityCount.push(obj.CityCount);
                         $scope.graph.labels.push(obj._id.City);
+                        $scope.graph.color.push(getRandomColor());*/
+
                     });
-                    $scope.graph.data.push(CityCount);
+                    // $scope.graph.data.push(CityCount);
+
+                    $scope.hideLoading();
+
+                    var ctx0 = document.getElementById("myPieChart").getContext("2d");
+                    myPieChart = new Chart(ctx0).Pie($scope.graph);
                 });
 
             });

@@ -17,12 +17,18 @@
  under the License.
  */
 
-#import <Cordova/CDVViewController.h>
+#import <Foundation/Foundation.h>
+#import <Cordova/CDVPlugin.h>
+#import "CDVReachability.h"
 
-@interface CDVViewController (SplashScreen)
+@interface CDVConnection : CDVPlugin {
+    NSString* type;
+    NSString* _callbackId;
 
-@property (nonatomic, assign) BOOL enabledAutorotation;
-@property (nonatomic, readonly) BOOL shouldAutorotateDefaultValue;
+    CDVReachability* internetReach;
+}
 
+@property (copy) NSString* connectionType;
+@property (strong) CDVReachability* internetReach;
 
 @end
