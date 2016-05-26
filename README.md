@@ -10,3 +10,4 @@ Pie chart is built to show the distribution of patients of a particular disease 
 HTML5, CSS3, Ionic Framework, AngularJS, Node.js, MongoDB
 
 ##Screenshots
+![Cohorts List](https://raw.githubusercontent.com/premdeepsaini/DiseaseRegistry_tabbedCohort/master/screenshots/1.tiff)
