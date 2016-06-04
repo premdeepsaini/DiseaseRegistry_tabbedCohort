@@ -18,10 +18,10 @@
 
 .cardAge{
     overflow-y: hidden;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 15%;
-    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    width:90%;
 }
 
 .ageFooterCSS {
@@ -41,7 +41,9 @@
     margin-top: -130px; /* negative half of height above */
     border-radius: 10px;
 }
-
+.genderPopup{
+    background-color: #FFFFFF;
+}
 .genderRadio {
 
     border-radius: 10px;
@@ -77,7 +79,7 @@
     height: 400px; /* adjust as per your needs */
     margin-left: -150px; /* negative half of width above */
     margin-top: -200px; /* negative half of height above */
-    border-radius: 10px;
+    border-radius:10px;
 }
 
 .cityFooterCSS {
@@ -121,7 +123,7 @@
     height: 250px; /* adjust as per your needs */
     margin-left: -150px; /* negative half of width above */
     margin-top: -130px; /* negative half of height above */
-    border-radius: 10px;
+    border-radius:10px;
 
 }
 

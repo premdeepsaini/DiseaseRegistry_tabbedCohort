@@ -25,9 +25,9 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
 
     .config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 
-    $ionicConfigProvider.views.transition('ios');
-    $ionicConfigProvider.tabs.style('standard').position('bottom');
-    $ionicConfigProvider.navBar.alignTitle('center').positionPrimaryButtons('left');
+        $ionicConfigProvider.views.transition('ios');
+        $ionicConfigProvider.tabs.style('standard').position('bottom');
+        $ionicConfigProvider.navBar.alignTitle('center').positionPrimaryButtons('left');
         $ionicConfigProvider.tabs.position('bottom');
         // $ionicConfigProvider.navBar.alignTitle('center');
         $ionicConfigProvider.form.checkbox('circle');
@@ -75,13 +75,14 @@ angular.module('DiseaseRegistry', ['ionic', 'DiseaseRegistry.controllers', 'Dise
                     }
                 }
             })
-            
+
             .state('tab.Analysis', {
                 url: '/Analysis',
                 views: {
                     'tab-Analysis': {
                         templateUrl: 'templates/tab-Analysis.html',
                         controller: 'GraphCtrl'
+
                     }
                 }
             });

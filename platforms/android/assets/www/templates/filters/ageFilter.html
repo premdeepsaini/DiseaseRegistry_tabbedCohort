@@ -1,19 +1,17 @@
-<ion-view class="agePopup" ng-controller="AddCohortCtrl">
-    <ion-header-bar title="Select Age Range" class="padding-bottom">
-        <h3 class="selectAgeTitle">Select Age Range</h3>
-    </ion-header-bar>
+<div ng-controller="AddCohortCtrl">
 
-    <ion-content class="has-header has-footer" scroll="false">
+
+    <div class="has-header has-footer" scroll="false">
         <div class="cardAge">
             <rzslider rz-slider-model="ageSlider.min" rz-slider-high="ageSlider.max"
                       rz-slider-options="ageSlider.options"></rzslider>
         </div>
-    </ion-content>
-    <ion-footer-bar class="ageFooterCSS">
+    </div>
+
         <div class="row">
             <input type="button" class="button button-assertive" ng-click="AgeCancel()" value="Cancel">
             <div class="padding"></div>
             <input type="submit" class="button button-positive" ng-click="AgeSubmit()" value="Submit">
         </div>
-    </ion-footer-bar>
-</ion-view>
+
+</div>

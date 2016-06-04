@@ -16,13 +16,22 @@
                     <h4>Maximum Age: {{filtersList.MaxAge}}</h4><br>
                 </div>
                 <div class="row">
-                   <h4>Gender: </h4> <h4 ng-repeat="gender in filtersList.PatientGender">{{gender}}&nbsp&nbsp</h4><br>
+                    <h4>Gender: </h4> <h4 ng-repeat="gender in filtersList.PatientGender">{{gender}}&nbsp&nbsp</h4><br>
                 </div>
                 <div class="row scroll-y item-text-wrap">
-                    <h4>Cities: </h4><h4 ng-repeat="city in filtersList.City">{{city}}&nbsp&nbsp</h4>
+                    <h4>Cities: </h4>
+                    <select style="width:80%; border-style: none;">
+                        <option style="color:#8f8f8f;" disabled>Click To Expand</option>
+                        <option ng-repeat="city in filtersList.City" disabled>{{city}}&nbsp&nbsp</option>
+                    </select>
                 </div>
                 <div class="row scroll-y item-text-wrap">
-                    <h4>Diseases: </h4><h4 ng-repeat="disease in filtersList.Diseases">{{disease}}&nbsp&nbsp</h4><br>
+                    <h4>Diseases: </h4>
+                    <select style="width:80%; border-style: none;">
+                        <option style="color:#8f8f8f;" disabled>Click To Expand</option>
+                        <option ng-repeat="disease in filtersList.Diseases" disabled>{{disease}}&nbsp&nbsp</option>
+                        <br>
+                    </select>
                 </div>
             </ion-item>
         </div>
@@ -31,7 +40,7 @@
             <center>List of Patients</center>
         </h2>
         <ion-list class="card ">
-            <ion-item ng-repeat="patient in patientsList" ng-click="getPatientDetails(patient.PatientID)">
+            <ion-item collection-repeat="patient in patientsList" ng-click="getPatientDetails(patient.PatientID)">
 
                 <h4>{{patient.FirstName}} {{patient.LastName}}</h4>
             </ion-item>
